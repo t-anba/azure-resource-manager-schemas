@@ -55,7 +55,7 @@
               },
               {
                 "oneOf": [
-                  { "$ref": "https://schema.management.azure.com/schemas/2016-10-01/Microsoft.KeyVault.json#" }
+                  { "$ref": "https://schema.management.azure.com/schemas/2016-10-01/Microsoft.KeyVault.json" }
                 ]
               }
             ]

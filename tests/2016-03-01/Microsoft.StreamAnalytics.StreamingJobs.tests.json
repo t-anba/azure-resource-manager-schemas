@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test Valid Job - One input/output/function",
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
       "json": {
         "name": "Test Job",
         "type": "Microsoft.StreamAnalytics/streamingjobs",
@@ -96,7 +96,7 @@
 
     {
       "name": "Test Valid Job - Multiple inputs/outputs/functions",
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
       "json": {
         "name": "Test Job",
         "type": "Microsoft.StreamAnalytics/streamingjobs",
@@ -296,7 +296,7 @@
           "schemaPath": "/required/3"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
       "json": {
         "name": "Test Job",
         "type": "Microsoft.StreamAnalytics/streamingjobs",
@@ -314,7 +314,7 @@
           "schemaPath": "/properties/name/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
       "json": {
         "name": { },
         "type": "Microsoft.StreamAnalytics/streamingjobs",
@@ -415,7 +415,7 @@
           "schemaPath": "/additionalProperties"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
       "json": {
         "name": "Test Job",
         "type": "Microsoft.StreamAnalytics/streamingjobs",
@@ -456,7 +456,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
       "json": {
         "name": "Test Job",
         "type": "Microsoft.StreamAnalytics/streamingjobs",
@@ -637,7 +637,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
       "json": {
         "name": "Test Job",
         "type": "Microsoft.StreamAnalytics/streamingjobs",
@@ -1399,7 +1399,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.StreamAnalytics.json#/resourceDefinitions/streamingjobs",
       "json": {
         "name": "Test Job",
         "type": "Microsoft.StreamAnalytics/streamingjobs",

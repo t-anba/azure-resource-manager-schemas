@@ -2,7 +2,7 @@
   "tests":[
     {
       "name":"servers - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -29,7 +29,7 @@
     },
     {
       "name":"servers - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"server1",
@@ -43,7 +43,7 @@
     },
     {
       "name":"administrators - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_administrators",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_administrators",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -97,7 +97,7 @@
     },
     {
       "name":"administrators - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_administrators",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_administrators",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"activeDirectory",
@@ -112,7 +112,7 @@
     },
     {
       "name":"auditingPolicies (database) - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_auditingPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_auditingPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -133,7 +133,7 @@
     },
     {
       "name":"auditingPolicies (database) - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_auditingPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_auditingPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"default",
@@ -144,7 +144,7 @@
     },
     {
       "name":"auditingPolicies (server) - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_auditingPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_auditingPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -165,7 +165,7 @@
     },
     {
       "name":"auditingPolicies (server) - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_auditingPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_auditingPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"default",
@@ -176,7 +176,7 @@
     },
     {
       "name":"backupLongTermRetentionVaults - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_backupLongTermRetentionVaults",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_backupLongTermRetentionVaults",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -215,7 +215,7 @@
     },
     {
       "name":"backupLongTermRetentionVaults - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_backupLongTermRetentionVaults",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_backupLongTermRetentionVaults",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"RegisteredVault",
@@ -227,7 +227,7 @@
     },
     {
       "name":"communicationLinks - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_communicationLinks",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_communicationLinks",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -266,7 +266,7 @@
     },
     {
       "name":"communicationLinks - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_communicationLinks",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_communicationLinks",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"MyLink",
@@ -278,7 +278,7 @@
     },
     {
       "name":"connectionPolicies - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_connectionPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_connectionPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -316,7 +316,7 @@
     },
     {
       "name":"connectionPolicies - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_connectionPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_connectionPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"default",
@@ -328,7 +328,7 @@
     },
     {
       "name":"databases - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -355,7 +355,7 @@
     },
     {
       "name":"databases - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"MyDb",
@@ -368,7 +368,7 @@
     },
     {
       "name":"server advisors - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_advisors",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_advisors",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -407,7 +407,7 @@
     },
     {
       "name":"server advisors - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_advisors",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_advisors",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"current",
@@ -419,7 +419,7 @@
     },
     {
       "name":"advisors - emty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_advisors",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_advisors",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -458,7 +458,7 @@
     },
     {
       "name":"advisors - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_advisors",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_advisors",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"current",
@@ -470,7 +470,7 @@
     },
     {
       "name":"backupLongTermRetentionPolicies - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_backupLongTermRetentionPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_backupLongTermRetentionPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -514,7 +514,7 @@
     },
     {
       "name":"backupLongTermRetentionPolicies - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_backupLongTermRetentionPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_backupLongTermRetentionPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"Default",
@@ -527,7 +527,7 @@
     },
     {
       "name":"dataMaskingPolicies - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_dataMaskingPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_dataMaskingPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -566,7 +566,7 @@
     },
     {
       "name":"dataMaskingPolicies - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_dataMaskingPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_dataMaskingPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"Default",
@@ -578,7 +578,7 @@
     },
     {
       "name":"dataMaskingRules - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_dataMaskingPolicies_rules",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_dataMaskingPolicies_rules",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -632,7 +632,7 @@
     },
     {
       "name":"dataMaskingRules - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_dataMaskingPolicies_rules",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_dataMaskingPolicies_rules",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"rule1",
@@ -647,7 +647,7 @@
     },
     {
       "name":"extensions - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_extensions",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_extensions",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -711,7 +711,7 @@
     },
     {
       "name":"extensions - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_extensions",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_extensions",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"import",
@@ -728,7 +728,7 @@
     },
     {
       "name":"geoBackupPolicies - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_geoBackupPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_geoBackupPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -767,7 +767,7 @@
     },
     {
       "name":"geoBackupPolicies - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_geoBackupPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_geoBackupPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"Default",
@@ -779,7 +779,7 @@
     },
     {
       "name":"securityAlertPolicies - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_securityAlertPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_securityAlertPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -818,7 +818,7 @@
     },
     {
       "name":"securityAlertPolicies - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_securityAlertPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_securityAlertPolicies",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"default",
@@ -830,7 +830,7 @@
     },
     {
       "name":"transparentDataEncryption - error",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_transparentDataEncryption",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_transparentDataEncryption",
       "json":{
         "apiVersion":"2014-04-01",
         "type":"Microsoft.Sql/servers/databases/transparentDataEncryption",
@@ -847,7 +847,7 @@
     },
     {
       "name":"transparentDataEncryption - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_transparentDataEncryption",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_databases_transparentDataEncryption",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"current",
@@ -858,7 +858,7 @@
     },
     {
       "name":"elasticPools - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_elasticPools",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_elasticPools",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -885,7 +885,7 @@
     },
     {
       "name":"elasticPools - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_elasticPools",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_elasticPools",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"pool1",
@@ -898,7 +898,7 @@
     },
     {
       "name":"firewallRules - empty",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_firewallRules",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_firewallRules",
       "json":{
         "apiVersion":"2014-04-01",
         "properties":{
@@ -942,7 +942,7 @@
     },
     {
       "name":"firewallRules - min",
-      "definition":"https://schema.management.azure.com/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_firewallRules",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.Sql.json#/resourceDefinitions/servers_firewallRules",
       "json":{
         "apiVersion":"2014-04-01",
         "name":"rule",

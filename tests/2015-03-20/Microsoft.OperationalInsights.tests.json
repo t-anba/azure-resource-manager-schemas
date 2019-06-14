@@ -2,7 +2,7 @@
     "tests": [
       {
         "name": "Test Valid saved search",
-        "definition": "https://schema.management.azure.com/schemas/2015-03-20/Microsoft.OperationalInsights.json#/resourceDefinitions/workspaces_savedSearches",
+        "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-03-20/Microsoft.OperationalInsights.json#/resourceDefinitions/workspaces_savedSearches",
         "json": {
           "name": "TestSavedSearch",
           "type": "Microsoft.OperationalInsights/workspaces/savedSearches",
@@ -24,7 +24,7 @@
       },
       {
         "name": "Test Valid storage insights config",
-        "definition": "https://schema.management.azure.com/schemas/2015-03-20/Microsoft.OperationalInsights.json#/resourceDefinitions/workspaces_storageInsightConfigs",
+        "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-03-20/Microsoft.OperationalInsights.json#/resourceDefinitions/workspaces_storageInsightConfigs",
         "json": {
           "name": "TestStorageInsightConfigs",
           "type": "Microsoft.OperationalInsights/workspaces/storageInsightConfigs",

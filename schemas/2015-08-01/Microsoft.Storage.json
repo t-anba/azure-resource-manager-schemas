@@ -1,5 +1,5 @@
 {
-  "id": "https://schema.management.azure.com/schemas/2015-08-01/Microsoft.Storage.json#",
+  "id": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-08-01/Microsoft.Storage.json#",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Microsoft.Storage",
   "description": "Microsoft Storage Resource Types",

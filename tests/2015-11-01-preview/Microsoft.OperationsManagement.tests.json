@@ -2,7 +2,7 @@
     "tests": [
       {
         "name": "Test Valid Managment Configuration",
-        "definition": "https://schema.management.azure.com/schemas/2015-11-01-preview/Microsoft.OperationsManagement.json#/resourceDefinitions/ManagementConfigurations",
+        "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-11-01-preview/Microsoft.OperationsManagement.json#/resourceDefinitions/ManagementConfigurations",
         "json": {
           "name": "TestManagmentConfiguration",
           "type": "Microsoft.OperationsManagement/ManagementConfigurations",
@@ -12,7 +12,7 @@
               "applicationId":"/subscriptions/sub1/resourcegroups/rg1/providers/Microsoft.Appliance/Appliances/appliance1",
               "parentResourceType":"Microsoft.OperationalInsights/workspaces",
               "template": {
-                      "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json",
+                      "$schema": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json",
                       "contentVersion": "1.0.0.0",
                       "parameters": {
                           "parentResourceName": {
@@ -60,7 +60,7 @@
       },
       {
         "name": "Test Valid Solution",
-        "definition": "https://schema.management.azure.com/schemas/2015-11-01-preview/Microsoft.OperationsManagement.json#/resourceDefinitions/solutions",
+        "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-11-01-preview/Microsoft.OperationsManagement.json#/resourceDefinitions/solutions",
         "json": {
           "name": "TestSolution",
           "type": "Microsoft.OperationsManagement/solutions",

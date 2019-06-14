@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://schema.management.azure.com/schemas/0.1.1-preview/CreateUIDefinition.ProviderControl.json#",
+  "id": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/0.1.1-preview/CreateUIDefinition.ProviderControl.json#",
   "oneOf": [
     {
       "$ref": "#/definitions/Microsoft.Common.Selector-provider"

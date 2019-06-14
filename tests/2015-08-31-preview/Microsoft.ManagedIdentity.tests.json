@@ -2,7 +2,7 @@
     "tests": [  
       {
         "name": "UserAssignedIdentities: Empty JSON Negative Test",
-        "definition": "https://schema.management.azure.com/schemas/2015-08-31-preview/Microsoft.ManagedIdentity.json#/resourceDefinitions/userAssignedIdentities",
+        "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-08-31-preview/Microsoft.ManagedIdentity.json#/resourceDefinitions/userAssignedIdentities",
         "expectedErrors": [
           {
             "message": "Missing required property: name",
@@ -25,7 +25,7 @@
       },  
       {
         "name": "UserAssignedIdentities: Positive Test",
-        "definition": "https://schema.management.azure.com/schemas/2015-08-31-preview/Microsoft.ManagedIdentity.json#/resourceDefinitions/userAssignedIdentities",
+        "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-08-31-preview/Microsoft.ManagedIdentity.json#/resourceDefinitions/userAssignedIdentities",
         "json": {
           "name": "id",
           "type": "Microsoft.ManagedIdentity/userAssignedIdentities",

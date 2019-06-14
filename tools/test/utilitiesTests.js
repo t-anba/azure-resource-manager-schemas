@@ -114,13 +114,13 @@ suite("utilities", () => {
         });
 
         test("with schema folder path and matching uri", () => {
-            const result = utilities.readJSONPath("https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#", "../schemas");
+            const result = utilities.readJSONPath("https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#", "../schemas");
             assert(result);
             assert.deepStrictEqual(typeof result, "object");
         });
 
         test("with schema folder path and matching uri", () => {
-            const result = utilities.readJSONPath("https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#", "../schemas");
+            const result = utilities.readJSONPath("https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-04-01/deploymentTemplate.json#", "../schemas");
             assert(result);
             assert.deepStrictEqual(typeof result, "object");
         });

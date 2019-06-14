@@ -2,7 +2,7 @@
     "tests": [
         {
             "name": "automationAccount resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts",
                 "apiVersion": "2015-10-31",
@@ -16,7 +16,7 @@
         },
         {
             "name": "certificate resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_certificates",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_certificates",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/certificates",
                 "apiVersion": "2015-10-31",
@@ -28,7 +28,7 @@
         },
         {
             "name": "runbook resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_runbooks",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_runbooks",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/runbooks",
                 "apiVersion": "2015-10-31",
@@ -43,7 +43,7 @@
         },
         {
             "name": "module resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_modules",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_modules",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/modules",
                 "apiVersion": "2015-10-31",
@@ -58,7 +58,7 @@
         },
         {
             "name": "connection resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_connections",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_connections",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/connections",
                 "apiVersion": "2015-10-31",
@@ -77,7 +77,7 @@
         },
         {
             "name": "variable resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_variables",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_variables",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/variables",
                 "apiVersion": "2015-10-31",
@@ -89,7 +89,7 @@
         },
         {
             "name": "schedule resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_schedules",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_schedules",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/schedules",
                 "apiVersion": "2015-10-31",
@@ -102,7 +102,7 @@
         },
         {
             "name": "jobs resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_jobs",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/jobs",
                 "apiVersion": "2015-10-31",
@@ -117,7 +117,7 @@
         },
         {
             "name": "jobSchedules resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_jobSchedules",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_jobSchedules",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/jobSchedules",
                 "apiVersion": "2015-10-31",
@@ -134,7 +134,7 @@
         },
         {
             "name": "compilationJob resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_compilationjobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_compilationjobs",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/compilationjobs",
                 "apiVersion": "2015-10-31",
@@ -148,7 +148,7 @@
         },
         {
             "name": "configurations resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_configurations",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_configurations",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/configurations",
                 "apiVersion": "2015-10-31",
@@ -168,7 +168,7 @@
         },
         {
             "name": "connection types resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_connectionTypes",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_connectionTypes",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/connectionTypes",
                 "apiVersion": "2015-10-31",
@@ -197,7 +197,7 @@
         },
         {
             "name": "credentials resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_credentials",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_credentials",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/credentials",
                 "apiVersion": "2015-10-31",
@@ -211,7 +211,7 @@
         },
         {
             "name": "node configuration resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_nodeConfigurations",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_nodeConfigurations",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/nodeConfigurations",
                 "name": "NodeConfiguration1",
@@ -233,7 +233,7 @@
         },
         {
             "name": "webhooks resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_webhooks",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_webhooks",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/webhooks",
                 "name": "Webhook1",
@@ -250,7 +250,7 @@
         },
         {
             "name": "watchers resource",
-            "definition": "https://schema.management.azure.com/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_watchers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-10-31/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_watchers",
             "json": {
                 "name": "MyTestWatcher",
                 "apiVersion": "2015-10-31",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "SendGrid - valid params",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "json": {
         "type": "Sendgrid.Email/accounts",
         "name": "my name",
@@ -21,7 +21,7 @@
     },
     {
       "name": "SendGrid - errors first level",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -48,7 +48,7 @@
     },
     {
       "name": "SendGrid - errors second level",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -85,7 +85,7 @@
     },
     {
       "name": "SendGrid - invalid apiVersion",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "No enum match for: \"2014-01-01\"",
@@ -110,7 +110,7 @@
     },
     {
       "name": "SendGrid - invalid type",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "No enum match for: \"Sendgrid.Type.Invalid\"",
@@ -135,7 +135,7 @@
     },
     {
       "name": "SendGrid - invalid plan.name",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -160,7 +160,7 @@
     },
     {
       "name": "SendGrid - invalid plan.product",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -185,7 +185,7 @@
     },
     {
       "name": "SendGrid - min length properties.password",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"anyOf\"",
@@ -210,7 +210,7 @@
     },
     {
       "name": "SendGrid - max length properties.password",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"anyOf\"",
@@ -235,7 +235,7 @@
     },
     {
       "name": "SendGrid - min length name",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"anyOf\"",
@@ -260,7 +260,7 @@
     },
     {
       "name": "SendGrid - max length name",
-      "definition": "https://schema.management.azure.com/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/Sendgrid.Email.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"anyOf\"",

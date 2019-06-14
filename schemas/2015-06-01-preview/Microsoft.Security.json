@@ -1,5 +1,5 @@
 {
-  "id": "https://schema.management.azure.com/schemas/2015-06-01-preview/Microsoft.Security.json#",
+  "id": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-06-01-preview/Microsoft.Security.json#",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Microsoft.Security",
   "description": "Microsoft Security Resource Types",
@@ -14,7 +14,7 @@
               "$ref": "#/definitions/JitNetworkAccessPolicyProperties"
             },
             {
-              "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Security contact data"

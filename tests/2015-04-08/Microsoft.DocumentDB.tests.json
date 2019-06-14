@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "databaseAccounts - minimal resource",
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",
@@ -21,7 +21,7 @@
     },
     {
       "name": "databaseAccounts - resource with Session consistencyPolicy property",
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",
@@ -43,7 +43,7 @@
     },
     {
       "name": "databaseAccounts - resource with Strong consistencyPolicy property",
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",
@@ -65,7 +65,7 @@
     },
     {
       "name": "databaseAccounts - resource with bounded staleness consistencyPolicy property",
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",
@@ -89,7 +89,7 @@
     },
     {
       "name": "databaseAccounts - resource with zone redundant location",
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",
@@ -109,7 +109,7 @@
     },
     {
       "name": "databaseAccounts - resource with VNET",
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",
@@ -143,7 +143,7 @@
           "schemaPath": "/required/2"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "name": "test",
@@ -165,7 +165,7 @@
           "schemaPath": "/properties/properties/required/1"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",
@@ -183,7 +183,7 @@
           "schemaPath": "/properties/properties/properties/consistencyPolicy/required/0"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",
@@ -212,7 +212,7 @@
           "schemaPath": "/properties/properties/properties/name/pattern"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",
@@ -232,7 +232,7 @@
           "schemaPath": "/properties/properties/properties/databaseAccountOfferType/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",
@@ -258,7 +258,7 @@
           "schemaPath": "/properties/properties/oneOf"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-04-08/Microsoft.DocumentDB.json#/resourceDefinitions/databaseAccounts",
       "json": {
         "type": "Microsoft.DocumentDB/databaseAccounts",
         "apiVersion": "2015-04-08",

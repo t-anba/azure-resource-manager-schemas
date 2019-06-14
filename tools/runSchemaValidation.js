@@ -19,7 +19,7 @@ let normalizedSchemaId = function (id) {
 }
 
 let requestServiceMock = function (uri) {
-  let schemaRootUri = 'https://schema.management.azure.com/schemas';
+  let schemaRootUri = 'https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas';
   uri = normalizedSchemaId(uri);
 
 	if (uri.startsWith(schemaRootUri)) {

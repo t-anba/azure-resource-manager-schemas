@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "components - empty",
-      "definition": "https://schema.management.azure.com/schemas/2015-05-01/Microsoft.Insights.json#/resourceDefinitions/components",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-05-01/Microsoft.Insights.json#/resourceDefinitions/components",
       "json": {
         "apiVersion": "2015-05-01",
         "properties": {}
@@ -49,7 +49,7 @@
     },
     {
       "name": "components - basic test",
-      "definition": "https://schema.management.azure.com/schemas/2015-05-01/Microsoft.Insights.json#/resourceDefinitions/components",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-05-01/Microsoft.Insights.json#/resourceDefinitions/components",
       "json": {
         "apiVersion": "2015-05-01",
         "name": "test-component",
@@ -63,7 +63,7 @@
     },
     {
       "name": "webtests - empty",
-      "definition": "https://schema.management.azure.com/schemas/2015-05-01/Microsoft.Insights.json#/resourceDefinitions/webtests",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-05-01/Microsoft.Insights.json#/resourceDefinitions/webtests",
       "json": {
         "apiVersion": "2015-05-01",
         "properties": {}
@@ -120,7 +120,7 @@
     },
     {
       "name": "webtests - basic test",
-      "definition": "https://schema.management.azure.com/schemas/2015-05-01/Microsoft.Insights.json#/resourceDefinitions/webtests",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-05-01/Microsoft.Insights.json#/resourceDefinitions/webtests",
       "json": {
         "apiVersion": "2015-05-01",
         "name": "test-component",

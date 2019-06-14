@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Container Service - minimal resource",
-      "definition": "https://schema.management.azure.com/schemas/2016-03-30/Microsoft.ContainerService.json#/resourceDefinitions/containerServices",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-30/Microsoft.ContainerService.json#/resourceDefinitions/containerServices",
       "json": {
         "apiVersion": "2016-03-30",
         "type": "Microsoft.ContainerService/containerServices",

@@ -1,12 +1,12 @@
 ﻿{
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://schema.management.azure.com/schemas/0.1.2-preview/CreateUIDefinition.MultiVm.json#",
+  "id": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/0.1.2-preview/CreateUIDefinition.MultiVm.json#",
   "type": "object",
   "properties": {    
     "$schema": {
       "type": "string",
       "enum": [
-        "https://schema.management.azure.com/schemas/0.1.2-preview/CreateUIDefinition.MultiVm.json#"
+        "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/0.1.2-preview/CreateUIDefinition.MultiVm.json#"
       ]
     },
     "handler": {

@@ -2,7 +2,7 @@
     "tests": [
       {
         "name": "Test Valid workspace",
-        "definition": "https://schema.management.azure.com/schemas/2015-11-01-preview/Microsoft.OperationalInsights.json#/resourceDefinitions/workspaces",
+        "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-11-01-preview/Microsoft.OperationalInsights.json#/resourceDefinitions/workspaces",
         "json": {
           "name": "TestWorkspace",
           "type": "Microsoft.OperationalInsights/workspaces",
@@ -22,7 +22,7 @@
       },
       {
         "name": "Test Valid data source",
-        "definition": "https://schema.management.azure.com/schemas/2015-11-01-preview/Microsoft.OperationalInsights.json#/resourceDefinitions/workspaces_dataSources",
+        "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-11-01-preview/Microsoft.OperationalInsights.json#/resourceDefinitions/workspaces_dataSources",
         "json": {
           "name": "TestWorkspaceDataSource",
           "type": "Microsoft.OperationalInsights/workspaces/dataSources",
@@ -36,7 +36,7 @@
       },
       {
         "name": "Test Valid linked service",
-        "definition": "https://schema.management.azure.com/schemas/2015-11-01-preview/Microsoft.OperationalInsights.json#/resourceDefinitions/workspaces_linkedServices",
+        "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-11-01-preview/Microsoft.OperationalInsights.json#/resourceDefinitions/workspaces_linkedServices",
         "json": {
           "name": "TestWorkspaceLinkedService",
           "type": "Microsoft.OperationalInsights/workspaces/linkedServices",

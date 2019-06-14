@@ -1,5 +1,5 @@
 {
-  "id": "https://schema.management.azure.com/schemas/2014-04-01/Microsoft.BizTalkServices.json",
+  "id": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2014-04-01/Microsoft.BizTalkServices.json",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Microsoft.BizTalkServices",
   "description": "Microsoft BizTalk Services Resource Types",
@@ -23,7 +23,7 @@
             "sku": {
               "oneOf": [
                 {
-                  "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                  "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
                 },
                 {
                   "type": "object",
@@ -31,7 +31,7 @@
                     "name": {
                       "oneOf": [
                         {
-                          "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                          "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
                         },
                         {
                           "enum": [
@@ -44,7 +44,7 @@
                     "unitCount": {
                       "oneOf": [
                         {
-                          "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                          "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
                         },
                         {
                           "type": "integer",
@@ -73,7 +73,7 @@
           "items": {
             "allOf": [
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/resourceBase"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/resourceBase"
               },
               {
                 "oneOf": [
@@ -119,7 +119,7 @@
             "port": {
               "oneOf": [
                 {
-                  "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                  "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
                 },
                 {
                   "type": "integer",

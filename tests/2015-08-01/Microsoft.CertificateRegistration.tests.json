@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "certificateOrders - basic",
-      "definition": "https://schema.management.azure.com/schemas/2015-08-01/Microsoft.CertificateRegistration.json#/resourceDefinitions/certificateOrders",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-08-01/Microsoft.CertificateRegistration.json#/resourceDefinitions/certificateOrders",
       "json": {
         "apiVersion": "2015-08-01",
         "name": "validCertificateOrder",
@@ -38,7 +38,7 @@
     },
     {
       "name": "CertificateOrderCertificates - basic",
-      "definition": "https://schema.management.azure.com/schemas/2015-08-01/Microsoft.CertificateRegistration.json#/resourceDefinitions/certificateOrders_certificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-08-01/Microsoft.CertificateRegistration.json#/resourceDefinitions/certificateOrders_certificates",
       "json": {
         "apiVersion": "2015-08-01",
         "name": "validCertificateOrderCertificate",

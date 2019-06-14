@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test Valid alert rule",
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.Insights.json#resourceDefinitions/alertrules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.Insights.json#resourceDefinitions/alertrules",
       "json": {
         "name": "TestAlert",
         "type": "microsoft.insights/alertrules",
@@ -44,7 +44,7 @@
           "schemaPath": "/required/3"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.Insights.json#resourceDefinitions/alertrules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.Insights.json#resourceDefinitions/alertrules",
       "json": {
         "name": "Test Alert",
         "type": "microsoft.insights/alertrules",
@@ -61,7 +61,7 @@
           "schemaPath": "/properties/name/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-03-01/Microsoft.Insights.json#resourceDefinitions/alertrules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-03-01/Microsoft.Insights.json#resourceDefinitions/alertrules",
       "json": {
         "name": {},
         "type": "microsoft.insights/alertrules",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "JIT network access policy - create",
-      "definition": "https://schema.management.azure.com/schemas/2015-06-01-preview/Microsoft.Security.json#/resourceDefinitions/jitNetworkAccessPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-06-01-preview/Microsoft.Security.json#/resourceDefinitions/jitNetworkAccessPolicies",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Security/locations/jitNetworkAccessPolicies",
@@ -59,7 +59,7 @@
     },
     {
       "name": "JIT network access policy - missing properties",
-      "definition": "https://schema.management.azure.com/schemas/2015-06-01-preview/Microsoft.Security.json#/resourceDefinitions/jitNetworkAccessPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-06-01-preview/Microsoft.Security.json#/resourceDefinitions/jitNetworkAccessPolicies",
       "expectedErrors": [
         {
           "message": "Missing required property: name",

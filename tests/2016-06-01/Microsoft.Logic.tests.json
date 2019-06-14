@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Workflow - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
       "json": {
         "type": "Microsoft.Logic/workflows",
         "apiVersion": "2016-06-01",
@@ -18,7 +18,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
       "json": {
         "apiVersion": "2016-06-01",
         "properties": {}
@@ -33,7 +33,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
       "json": {
         "type": "Microsoft.Logic/workflows",
         "properties": {}
@@ -48,7 +48,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
       "json": {
         "type": "Microsoft.Logic/workflows",
         "apiVersion": "2016-06-01"
@@ -57,7 +57,7 @@
 
     {
       "name": "integrationAccount - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts",
         "apiVersion": "2016-06-01"
@@ -72,7 +72,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts"
       }
@@ -86,7 +86,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts",
       "json": {
         "apiVersion": "2016-06-01"
       }
@@ -94,7 +94,7 @@
 
     {
       "name": "IntegrationAccountsAgreements - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_agreements",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_agreements",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/agreements",
         "apiVersion": "2016-06-01",
@@ -110,7 +110,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_agreements",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_agreements",
       "json": {
         "apiVersion": "2016-06-01",
         "properties": {}
@@ -125,7 +125,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_agreements",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_agreements",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/agreements",
         "properties": {}
@@ -140,7 +140,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_agreements",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_agreements",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/agreements",
         "apiVersion": "2016-06-01"
@@ -149,7 +149,7 @@
 
     {
       "name": "IntegrationAccountsCertificates - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_certificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_certificates",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/certificates",
         "apiVersion": "2016-06-01",
@@ -165,7 +165,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_certificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_certificates",
       "json": {
         "apiVersion": "2016-06-01",
         "properties": {}
@@ -180,7 +180,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_certificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_certificates",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/certificates",
         "properties": {}
@@ -195,7 +195,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_certificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_certificates",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/certificates",
         "apiVersion": "2016-06-01"
@@ -204,7 +204,7 @@
 
     {
       "name": "IntegrationAccountsMaps - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_maps",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_maps",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/maps",
         "apiVersion": "2016-06-01",
@@ -220,7 +220,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_maps",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_maps",
       "json": {
         "apiVersion": "2016-06-01",
         "properties": {}
@@ -235,7 +235,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_maps",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_maps",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/maps",
         "properties": {}
@@ -250,7 +250,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_maps",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_maps",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/maps",
         "apiVersion": "2016-06-01"
@@ -259,7 +259,7 @@
 
     {
       "name": "IntegrationAccountsPartners - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_partners",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_partners",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/partners",
         "apiVersion": "2016-06-01",
@@ -275,7 +275,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_partners",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_partners",
       "json": {
         "apiVersion": "2016-06-01",
         "properties": {}
@@ -290,7 +290,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_partners",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_partners",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/partners",
         "properties": {}
@@ -305,7 +305,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_partners",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_partners",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/partners",
         "apiVersion": "2016-06-01"
@@ -314,7 +314,7 @@
 
     {
       "name": "IntegrationAccountsSchemas - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_schemas",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_schemas",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/schemas",
         "apiVersion": "2016-06-01",
@@ -330,7 +330,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_schemas",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_schemas",
       "json": {
         "apiVersion": "2016-06-01",
         "properties": {}
@@ -345,7 +345,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_schemas",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_schemas",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/schemas",
         "properties": {}
@@ -360,7 +360,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_schemas",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_schemas",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/schemas",
         "apiVersion": "2016-06-01"
@@ -369,7 +369,7 @@
 
     {
       "name": "IntegrationAccountsAssemblies - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_assemblies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_assemblies",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/assemblies",
         "apiVersion": "2016-06-01",
@@ -385,7 +385,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_assemblies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_assemblies",
       "json": {
         "apiVersion": "2016-06-01",
         "properties": {}
@@ -400,7 +400,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_assemblies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_assemblies",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/assemblies",
         "properties": {}
@@ -415,7 +415,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_assemblies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_assemblies",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/assemblies",
         "apiVersion": "2016-06-01"
@@ -424,7 +424,7 @@
 
     {
       "name": "IntegrationAccountsBatchConfigurations - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_batchConfigurations",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_batchConfigurations",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/batchConfigurations",
         "apiVersion": "2016-06-01",
@@ -440,7 +440,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_batchConfigurations",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_batchConfigurations",
       "json": {
         "apiVersion": "2016-06-01",
         "properties": {}
@@ -455,7 +455,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_batchConfigurations",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_batchConfigurations",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/batchConfigurations",
         "properties": {}
@@ -470,7 +470,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_batchConfigurations",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.Logic.json#/resourceDefinitions/integrationAccounts_batchConfigurations",
       "json": {
         "type": "Microsoft.Logic/integrationAccounts/batchConfigurations",
         "apiVersion": "2016-06-01"

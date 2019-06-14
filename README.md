@@ -1,8 +1,8 @@
 # azure-resource-manager-schemas 
 
-This is the repo for template deployment schemas hosted at https://schema.management.azure.com/.
+This is the repo for template deployment schemas hosted at https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/.
 
-Welcome to contribute to template deployment schemas, please send pull request to improve the schemas. We will review the pull request and publish the latest schemas to https://schema.management.azure.com/schemas
+Welcome to contribute to template deployment schemas, please send pull request to improve the schemas. We will review the pull request and publish the latest schemas to https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas
 
 ## Hints
 * When you add a new resource type in schema, please add it into [schemas\2014-04-01-preview\deploymentTemplate.json](schemas/2014-04-01-preview/deploymentTemplate.json), [schemas\2015-01-01\deploymentTemplate.json](schemas/2015-01-01/deploymentTemplate.json) and [schemas\2019-04-01\deploymentTemplate.json](schemas/2019-04-01/deploymentTemplate.json).

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Customer Insights hubs links tests",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
       "json": {
         "apiVersion": "2017-01-01",
         "name": "customerlinks",
@@ -27,7 +27,7 @@
     },
     {
       "name": "Customer Insights hubs links tests - no required name",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -57,7 +57,7 @@
     },
     {
       "name": "Customer Insights hubs links tests - no required apiVersion",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
       "expectedErrors": [
         {
           "message": "Missing required property: apiVersion",
@@ -87,7 +87,7 @@
     },
     {
       "name": "Customer Insights hubs links tests - no required type",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
       "expectedErrors": [
         {
           "message": "Missing required property: type",
@@ -117,7 +117,7 @@
     },
     {
       "name": "Customer Insights hubs links tests - no required properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
       "expectedErrors": [
         {
           "message": "Missing required property: properties",
@@ -132,7 +132,7 @@
     },
     {
       "name": "Customer Insights hubs links tests - no sourceInteractionType under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -162,7 +162,7 @@
     },
     {
       "name": "Customer Insights hubs links tests - no targetProfileType under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -192,7 +192,7 @@
     },
     {
       "name": "Customer Insights links hubs tests - no participantPropertyReferences under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -213,7 +213,7 @@
     },
     {
       "name": "Customer Insights hubs links tests - invalid participantPropertyReferences definition",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -243,7 +243,7 @@
     },
     {
       "name": "Customer Insights hubs links tests - invalid referenceOnly under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_links",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Configuration Store",
-      "definition": "https://schema.management.azure.com/schemas/2019-02-01-preview/Microsoft.AppConfiguration.json#/resourceDefinitions/configurationStores",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-02-01-preview/Microsoft.AppConfiguration.json#/resourceDefinitions/configurationStores",
       "json": {
         "name": "AppConfigurationStore",
         "type": "Microsoft.AppConfiguration/configurationStores",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Configuration Store with invalid name",
-      "definition": "https://schema.management.azure.com/schemas/2019-02-01-preview/Microsoft.AppConfiguration.json#/resourceDefinitions/configurationStores",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-02-01-preview/Microsoft.AppConfiguration.json#/resourceDefinitions/configurationStores",
       "json": {
         "name": "AppConfiguration.Store",
         "type": "Microsoft.AppConfiguration/configurationStores",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Configuration Store with missing location",
-      "definition": "https://schema.management.azure.com/schemas/2019-02-01-preview/Microsoft.AppConfiguration.json#/resourceDefinitions/configurationStores",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-02-01-preview/Microsoft.AppConfiguration.json#/resourceDefinitions/configurationStores",
       "json": {
         "name": "AppConfigurationStore",
         "type": "Microsoft.AppConfiguration/configurationStores",

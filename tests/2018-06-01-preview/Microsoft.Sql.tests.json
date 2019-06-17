@@ -2,7 +2,7 @@
   "tests":[
     {
       "name":"managedInstances vulnerabilityAssessments - empty",
-      "definition":"https://schema.management.azure.com/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/managedInstances_vulnerabilityAssessments",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/managedInstances_vulnerabilityAssessments",
       "json":{
         "apiVersion":"2018-06-01-preview",
         "properties":{
@@ -24,7 +24,7 @@
     },
     {
       "name":"managedInstances vulnerabilityAssessments - min",
-      "definition":"https://schema.management.azure.com/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/managedInstances_vulnerabilityAssessments",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/managedInstances_vulnerabilityAssessments",
       "json":{
         "apiVersion":"2018-06-01-preview",
         "name":"Default",
@@ -37,7 +37,7 @@
     },
     {
       "name":"servers vulnerabilityAssessments - empty",
-      "definition":"https://schema.management.azure.com/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/servers_vulnerabilityAssessments",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/servers_vulnerabilityAssessments",
       "json":{
         "apiVersion":"2018-06-01-preview",
         "properties":{
@@ -59,7 +59,7 @@
     },
     {
       "name":"servers vulnerabilityAssessments - min",
-      "definition":"https://schema.management.azure.com/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/servers_vulnerabilityAssessments",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/servers_vulnerabilityAssessments",
       "json":{
         "apiVersion":"2018-06-01-preview",
         "name":"Default",
@@ -72,7 +72,7 @@
     },
     {
       "name":"servers databases securityAlertPolicies - empty",
-      "definition":"https://schema.management.azure.com/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/servers_databases_securityAlertPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/servers_databases_securityAlertPolicies",
       "json":{
         "apiVersion":"2018-06-01-preview",
         "properties":{
@@ -111,7 +111,7 @@
     },
     {
       "name":"servers databases securityAlertPolicies - min",
-      "definition":"https://schema.management.azure.com/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/servers_databases_securityAlertPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-06-01-preview/Microsoft.Sql.json#/resourceDefinitions/servers_databases_securityAlertPolicies",
       "json":{
         "apiVersion":"2018-06-01-preview",
         "name":"Default",

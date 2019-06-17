@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Customer Insights hubs views tests",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
       "json": {
         "apiVersion": "2017-04-26",
         "name": "customerviews",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Customer Insights hubs views tests - no required name",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -33,7 +33,7 @@
     },
     {
       "name": "Customer Insights hubs views tests - no required apiVersion",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
       "expectedErrors": [
         {
           "message": "Missing required property: apiVersion",
@@ -51,7 +51,7 @@
     },
     {
       "name": "Customer Insights hubs views tests - no required type",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
       "expectedErrors": [
         {
           "message": "Missing required property: type",
@@ -69,7 +69,7 @@
     },
     {
       "name": "Customer Insights hubs views tests - no required properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
       "expectedErrors": [
         {
           "message": "Missing required property: properties",
@@ -84,7 +84,7 @@
     },
     {
       "name": "Customer Insights hubs views tests - no definition under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_views",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",

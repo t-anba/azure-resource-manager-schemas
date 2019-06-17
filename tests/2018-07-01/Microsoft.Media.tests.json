@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Media Services - valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices",
       "json": {
         "type": "Microsoft.Media/mediaServices",
         "apiVersion": "2018-07-01",
@@ -21,7 +21,7 @@
 
     {
       "name": "Media Services - invalid, name: missing",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -45,7 +45,7 @@
 
     {
       "name": "Media Services Account Filter - valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_accountFilters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_accountFilters",
       "json": {
         "name": "myAccountFilter",
         "type": "Microsoft.Media/mediaServices/accountFilters",
@@ -103,7 +103,7 @@
 
     {
       "name": "Media Services Account Filter - invalid, properties missing",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_accountFilters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_accountFilters",
       "expectedErrors": [
         {
           "message": "Missing required property: properties",
@@ -119,7 +119,7 @@
 
     {
       "name": "Media Services Asset - valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_assets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_assets",
       "json": {
         "name": "myAsset",
         "type": "Microsoft.Media/mediaServices/assets",
@@ -133,7 +133,7 @@
 
     {
       "name": "Media Services Asset - invalid, missing name",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_assets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_assets",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -152,7 +152,7 @@
 
     {
       "name": "Media Services Asset Filter - valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_assets_assetFilters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_assets_assetFilters",
       "json": {
         "name": "myAssetFilter",
         "type": "Microsoft.Media/mediaServices/assets/assetFilters",
@@ -175,7 +175,7 @@
 
     {
       "name": "Media Services Asset Filter - invalid, missing name",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_assets_assetFilters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_assets_assetFilters",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -203,7 +203,7 @@
 
     {
       "name": "Media Services Content Key Policy - valid open policy with clear key encryption",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_contentKeyPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_contentKeyPolicies",
       "json": {
         "name": "myContentKeyPolicy",
         "type": "Microsoft.Media/mediaServices/contentKeyPolicies",
@@ -227,7 +227,7 @@
 
     {
       "name": "Media Services Content Key Policy - valid open policy with PlayReady and Widevine encryption",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_contentKeyPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_contentKeyPolicies",
       "json": {
         "name": "myContentKeyPolicy",
         "type": "Microsoft.Media/mediaServices/contentKeyPolicies",
@@ -279,7 +279,7 @@
 
     {
       "name": "Media Services Content Key Policy - valid open policy with Fairplay encryption",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_contentKeyPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_contentKeyPolicies",
       "json": {
         "name": "myContentKeyPolicy",
         "type": "Microsoft.Media/mediaServices/contentKeyPolicies",
@@ -315,7 +315,7 @@
 
     {
       "name": "Media Services Content Key Policy - invalid, missing option restriction",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_contentKeyPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_contentKeyPolicies",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -342,7 +342,7 @@
 
     {
       "name": "Media Services Live Event - valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_liveEvents",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_liveEvents",
       "json": {
         "name": "myLiveEvent",
         "location": "West Us",
@@ -372,7 +372,7 @@
 
     {
       "name": "Media Services Live Event - invalid, bad name character",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_liveEvents",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_liveEvents",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -408,7 +408,7 @@
 
     {
       "name": "Media Services Live Output - valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_liveEvents_liveOutputs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_liveEvents_liveOutputs",
       "json": {
         "name": "myLiveOutput",
         "type": "Microsoft.Media/mediaServices/liveEvents/liveOutputs",
@@ -427,7 +427,7 @@
 
     {
       "name": "Media Services Live Output - invalid, bad name character",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_liveEvents_liveOutputs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_liveEvents_liveOutputs",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -452,7 +452,7 @@
 
     {
       "name": "Media Services Streaming Endpoint - valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingEndpoints",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingEndpoints",
       "json": {
         "name": "myLiveOutput",
         "location": "West US",
@@ -493,7 +493,7 @@
 
     {
       "name": "Media Services Streaming Endpoint - invalid, bad name character",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingEndpoints",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingEndpoints",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -526,7 +526,7 @@
 
     {
       "name": "Media Services Streaming Locator - valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingLocators",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingLocators",
       "json": {
         "name": "myLocator",
         "type": "Microsoft.Media/mediaServices/streamingLocators",
@@ -540,7 +540,7 @@
 
     {
       "name": "Media Services Streaming Locator - invalid, missing Streaming Policy Name",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingLocators",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingLocators",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -559,7 +559,7 @@
 
     {
       "name": "Media Services Streaming Policy - valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingPolicies",
       "json": {
         "name": "myStreamingPolicy",
         "type": "Microsoft.Media/mediaServices/streamingPolicies",
@@ -579,7 +579,7 @@
 
     {
       "name": "Media Services Streaming Policy - invalid, missing name",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_streamingPolicies",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -604,7 +604,7 @@
 
     {
       "name": "Media Services Transform - valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms",
       "json": {
         "name": "myTransform",
         "type": "Microsoft.Media/mediaServices/transforms",
@@ -627,7 +627,7 @@
 
     {
       "name": "Media Services Transform - invalid, missing outputs",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -646,7 +646,7 @@
 
     {
       "name": "Media Services Job - valid using job inputs with http",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms_jobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms_jobs",
       "json": {
         "name": "job1",
         "type": "Microsoft.Media/mediaServices/transforms/jobs",
@@ -680,7 +680,7 @@
 
     {
       "name": "Media Services Job - valid using job inputs",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms_jobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms_jobs",
       "json": {
         "name": "job1",
         "type": "Microsoft.Media/mediaServices/transforms/jobs",
@@ -714,7 +714,7 @@
 
     {
       "name": "Media Services Job - valid using job input asset",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms_jobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms_jobs",
       "json": {
         "name": "job1",
         "type": "Microsoft.Media/mediaServices/transforms/jobs",
@@ -744,7 +744,7 @@
 
     {
       "name": "Media Services Job - invalid, missing input",
-      "definition": "https://schema.management.azure.com/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms_jobs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-07-01/Microsoft.Media.json#/resourceDefinitions/mediaServices_transforms_jobs",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",

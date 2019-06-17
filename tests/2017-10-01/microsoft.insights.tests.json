@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "components_pricingPlans - basic test",
-      "definition": "https://schema.management.azure.com/schemas/2017-10-01/Microsoft.Insights.json#/resourceDefinitions/components_pricingPlans",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-10-01/Microsoft.Insights.json#/resourceDefinitions/components_pricingPlans",
       "json": {      
       "type": "Microsoft.Insights/components/pricingPlans",
       "location": "us-west",
@@ -20,7 +20,7 @@
     },
     {
       "name": "components - basic test",
-      "definition": "https://schema.management.azure.com/schemas/2015-05-01/Microsoft.Insights.json#/resourceDefinitions/components",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-05-01/Microsoft.Insights.json#/resourceDefinitions/components",
       "json": {
         "apiVersion": "2015-05-01",
         "name": "test-component1",

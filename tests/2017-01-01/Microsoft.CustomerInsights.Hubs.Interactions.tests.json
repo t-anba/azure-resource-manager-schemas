@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Customer Insights hubs interactions tests",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
       "json": {
         "apiVersion": "2017-01-01",
         "name": "customerinteractions",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Customer Insights hubs interactions tests - no required name",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Customer Insights hubs interactions tests - no required apiVersion",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
       "expectedErrors": [
         {
           "message": "Missing required property: apiVersion",
@@ -90,7 +90,7 @@
     },
     {
       "name": "Customer Insights hubs interactions tests - no required type",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
       "expectedErrors": [
         {
           "message": "Missing required property: type",
@@ -121,7 +121,7 @@
     },
     {
       "name": "Customer Insights hubs interactions tests - no required properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
       "expectedErrors": [
         {
           "message": "Missing required property: properties",
@@ -136,7 +136,7 @@
     },
     {
       "name": "Customer Insights hubs interactions tests - no fieldName under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -167,7 +167,7 @@
     },
     {
       "name": "Customer Insights interactions hubs tests - entityType is out of range",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_interactions",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",

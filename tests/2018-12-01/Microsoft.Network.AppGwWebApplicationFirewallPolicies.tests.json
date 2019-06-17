@@ -2,7 +2,7 @@
   "tests":[
     {
       "name":"web application firewall policy - minimal resource",
-      "definition":"https://schema.management.azure.com/schemas/2018-12-01/Microsoft.Network.json#/resourceDefinitions/ApplicationGatewayWebApplicationFirewallPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-12-01/Microsoft.Network.json#/resourceDefinitions/ApplicationGatewayWebApplicationFirewallPolicies",
       "json":{
         "apiVersion":"2018-12-01",
         "type":"Microsoft.Network/ApplicationGatewayWebApplicationFirewallPolicies",
@@ -15,7 +15,7 @@
     },
     {
       "name":"web application firewall policy - with rules",
-      "definition":"https://schema.management.azure.com/schemas/2018-12-01/Microsoft.Network.json#/resourceDefinitions/ApplicationGatewayWebApplicationFirewallPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-12-01/Microsoft.Network.json#/resourceDefinitions/ApplicationGatewayWebApplicationFirewallPolicies",
       "json":{
         "apiVersion":"2018-12-01",
         "type":"Microsoft.Network/ApplicationGatewayWebApplicationFirewallPolicies",
@@ -53,7 +53,7 @@
     },
     {
       "name":"web application firewall policy - missing required",
-      "definition":"https://schema.management.azure.com/schemas/2018-12-01/Microsoft.Network.json#/resourceDefinitions/ApplicationGatewayWebApplicationFirewallPolicies",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-12-01/Microsoft.Network.json#/resourceDefinitions/ApplicationGatewayWebApplicationFirewallPolicies",
       "expectedErrors":[
         {
           "message": "Data does not match any schemas from \"oneOf\"",

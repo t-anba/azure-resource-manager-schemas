@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Create project - minimal",
-      "definition":  "https://schema.management.azure.com/schemas/2018-02-02/Microsoft.Migrate.json#/resourceDefinitions/projects",
+      "definition":  "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-02/Microsoft.Migrate.json#/resourceDefinitions/projects",
       "json": {
         "type": "Microsoft.Migrate/projects",
         "name": "[projectName]",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Create group in a project - minimal",
-      "definition":  "https://schema.management.azure.com/schemas/2018-02-02/Microsoft.Migrate.json#/resourceDefinitions/projects_groups",
+      "definition":  "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-02/Microsoft.Migrate.json#/resourceDefinitions/projects_groups",
       "json": {
         "type": "Microsoft.Migrate/projects/groups",
         "name": "[groupName]",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Create assessment in a group - minimal",
-      "definition":  "https://schema.management.azure.com/schemas/2018-02-02/Microsoft.Migrate.json#/resourceDefinitions/projects_groups_assessments",
+      "definition":  "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-02/Microsoft.Migrate.json#/resourceDefinitions/projects_groups_assessments",
       "json": {
         "type": "Microsoft.Migrate/projects/groups/assessments",
         "name": "[assessmentName]",

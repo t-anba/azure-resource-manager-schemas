@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "namespaces - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.EventHub/namespaces",
         "apiVersion": "2017-04-01",
@@ -42,7 +42,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.EventHub/namespaces",
         "apiVersion": "2017-04-01",
@@ -73,7 +73,7 @@
           "schemaPath": "/properties/apiVersion/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.EventHub/invalidType",
         "apiVersion": "2015-10-12",
@@ -84,7 +84,7 @@
     },
     {
       "name": "namespaces AuthorizationRules- Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_AuthorizationRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_AuthorizationRules",
       "json": {
         "type": "Microsoft.EventHub/namespaces/AuthorizationRules",
         "apiVersion": "2017-04-01",
@@ -100,7 +100,7 @@
     },
     {
       "name": "namespaces eventhub",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_eventhubs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_eventhubs",
       "json": {
         "type": "Microsoft.EventHub/namespaces/eventhubs",
         "apiVersion": "2017-04-01",
@@ -128,7 +128,7 @@
     },
     {
       "name": "namespaces eventhub",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_eventhubs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_eventhubs",
       "json": {
         "type": "Microsoft.EventHub/namespaces/eventhubs",
         "apiVersion": "2017-04-01",
@@ -138,7 +138,7 @@
     },
     {
       "name": "namespaces eventhubs_authorizationRules - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_eventhubs_authorizationRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_eventhubs_authorizationRules",
       "json": {
         "type": "Microsoft.EventHub/namespaces/eventhubs/authorizationRules",
         "apiVersion": "2017-04-01",
@@ -154,7 +154,7 @@
     },
     {
       "name": "namespaces eventhubs_consumergroups - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_eventhubs_consumergroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_eventhubs_consumergroups",
       "json": {
         "type": "Microsoft.EventHub/namespaces/eventhubs/consumergroups",
         "apiVersion": "2017-04-01",
@@ -183,7 +183,7 @@
           "schemaPath": "/properties/apiVersion"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_disasterRecoveryConfigs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_disasterRecoveryConfigs",
       "json": {
         "type": "Microsoft.EventHub/invalidType",
         "apiVersion": "2015-10-12",
@@ -194,7 +194,7 @@
     },
     {
       "name": "disasterRecoveryConfigs",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_disasterRecoveryConfigs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_disasterRecoveryConfigs",
       "json": {
         "apiVersion": "2017-04-01",
         "name": "sdk-DisasterRecovery-3814",
@@ -228,7 +228,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_NetworkRuleSets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_NetworkRuleSets",
       "json": {
         "apiVersion": "2017-04-01",
         "name": "sdk-Namespace-6019",
@@ -239,7 +239,7 @@
     },
     {
       "name": "NetworkRuleSet - minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_NetworkRuleSets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_NetworkRuleSets",
       "json": {
         "apiVersion": "2017-04-01",
         "name": "sdk-Namespace-6019",
@@ -251,7 +251,7 @@
     },
     {
       "name": "NetworkRuleSet - allProperties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_NetworkRuleSets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_NetworkRuleSets",
       "json": {
         "apiVersion": "2017-04-01",
         "name": "sdk-Namespace-6019",

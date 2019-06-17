@@ -1,5 +1,5 @@
 {
-    "id": "https://schema.management.azure.com/schemas/2018-04-01/Microsoft.Network.json#",
+    "id": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-04-01/Microsoft.Network.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Microsoft.Network",
     "description": "Microsoft Network Resource Types",
@@ -35,7 +35,7 @@
                 }
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "Resource tags."
@@ -50,7 +50,7 @@
                 "$ref": "#/definitions/ProfileProperties"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The properties of the Traffic Manager profile."
@@ -79,7 +79,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The DNS Time-To-Live (TTL), in seconds. This informs the local DNS resolvers and DNS clients how long to cache DNS responses provided by this Traffic Manager profile."
@@ -108,7 +108,7 @@
                 "$ref": "#/definitions/EndpointProperties"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The properties of the Traffic Manager endpoint."
@@ -137,7 +137,7 @@
                 ]
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The status of the endpoint. If the endpoint is Enabled, it is probed for endpoint health and is included in the traffic routing method."
@@ -148,7 +148,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The weight of this endpoint when using the 'Weighted' traffic routing method. Possible values are from 1 to 1000."
@@ -159,7 +159,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The priority of this endpoint when using the 'Priority' traffic routing method. Possible values are from 1 to 1000, lower values represent higher priority. This is an optional parameter.  If specified, it must be specified on all endpoints, and no two endpoints can share the same priority value."
@@ -182,7 +182,7 @@
                 ]
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The monitoring status of the endpoint."
@@ -193,7 +193,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The minimum number of endpoints that must be available in the child profile in order for the parent profile to be considered available. Only applicable to endpoint of type 'NestedEndpoints'."
@@ -207,7 +207,7 @@
                 }
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The list of countries/regions mapped to this endpoint when using the 'Geographic' traffic routing method. Please consult Traffic Manager Geographic documentation for a full list of accepted values."
@@ -221,7 +221,7 @@
                 }
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The list of subnets, IP addresses, and/or address ranges mapped to this endpoint when using the 'Subnet' traffic routing method. An empty list will match all ranges not covered by other endpoints."
@@ -235,7 +235,7 @@
                 }
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "List of custom headers."
@@ -274,7 +274,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "Block size (number of leading bits in the subnet mask)."
@@ -298,7 +298,7 @@
                 ]
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The profile-level monitoring status of the Traffic Manager profile."
@@ -314,7 +314,7 @@
                 ]
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The protocol (HTTP, HTTPS or TCP) used to probe for endpoint health."
@@ -325,7 +325,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The TCP port used to probe for endpoint health."
@@ -340,7 +340,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The monitor interval for endpoints in this profile. This is the interval at which Traffic Manager will check the health of each endpoint in this profile."
@@ -351,7 +351,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The monitor timeout for endpoints in this profile. This is the time that Traffic Manager allows endpoints in this profile to response to the health check."
@@ -362,7 +362,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The number of consecutive failed health check that Traffic Manager tolerates before declaring an endpoint in this profile Degraded after the next failed health check."
@@ -376,7 +376,7 @@
                 }
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "List of custom headers."
@@ -390,7 +390,7 @@
                 }
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "List of expected status code ranges."
@@ -421,7 +421,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "Min status code."
@@ -432,7 +432,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "Max status code."
@@ -453,7 +453,7 @@
                 ]
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The status of the Traffic Manager profile."
@@ -472,7 +472,7 @@
                 ]
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The traffic routing method of the Traffic Manager profile."
@@ -483,7 +483,7 @@
                 "$ref": "#/definitions/DnsConfig"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The DNS settings of the Traffic Manager profile."
@@ -494,7 +494,7 @@
                 "$ref": "#/definitions/MonitorConfig"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The endpoint monitoring settings of the Traffic Manager profile."
@@ -508,7 +508,7 @@
                 }
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "The list of endpoints in the Traffic Manager profile."
@@ -523,7 +523,7 @@
                 ]
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "Indicates whether Traffic View is 'Enabled' or 'Disabled' for the Traffic Manager profile. Null, indicates 'Disabled'. Enabling this feature will increase the cost of the Traffic Manage profile."
@@ -534,7 +534,7 @@
                 "type": "integer"
               },
               {
-                "$ref": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
               }
             ],
             "description": "Maximum number of endpoints to be returned for MultiValue routing type."

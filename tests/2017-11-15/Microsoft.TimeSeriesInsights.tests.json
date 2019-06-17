@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "environments - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments",
         "apiVersion": "2017-11-15",
@@ -19,7 +19,7 @@
     },
     {
       "name": "eventSources - EventHub - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/eventSources",
         "apiVersion": "2017-11-15",
@@ -38,7 +38,7 @@
     },
     {
       "name": "eventSources - EventHub - Full",
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/eventSources",
         "apiVersion": "2017-11-15",
@@ -58,7 +58,7 @@
     },
     {
       "name": "eventSources - IoTHub - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/eventSources",
         "apiVersion": "2017-11-15",
@@ -77,7 +77,7 @@
     },
     {
       "name": "eventSources - IoTHub - Full",
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/eventSources",
         "apiVersion": "2017-11-15",
@@ -103,7 +103,7 @@
           "schemaPath": "/required/6"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/eventSources",
         "apiVersion": "2017-11-15",
@@ -128,7 +128,7 @@
           "schemaPath": "/required/6"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/eventSources",
         "apiVersion": "2017-11-15",
@@ -153,7 +153,7 @@
           "schemaPath": "/required/6"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_eventSources",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/eventSources",
         "apiVersion": "2017-11-15",
@@ -170,7 +170,7 @@
     },
     {
       "name": "referenceDataSets - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_referenceDataSets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_referenceDataSets",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/referenceDataSets",
         "apiVersion": "2017-11-15",
@@ -188,7 +188,7 @@
     },
     {
       "name": "referenceDataSets - EachAllowedType",
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_referenceDataSets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_referenceDataSets",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/referenceDataSets",
         "apiVersion": "2017-11-15",
@@ -218,7 +218,7 @@
     },
     {
       "name": "accessPolicies - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_accessPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_accessPolicies",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/accessPolicies",
         "apiVersion": "2017-11-15",
@@ -232,7 +232,7 @@
     },
     {
       "name": "accessPolicies - Multiple roles",
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_accessPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_accessPolicies",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/accessPolicies",
         "apiVersion": "2017-11-15",
@@ -253,7 +253,7 @@
           "schemaPath": "/properties/properties/oneOf"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_accessPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-11-15/Microsoft.TimeSeriesInsights.json#/resourceDefinitions/environments_accessPolicies",
       "json": {
         "type": "Microsoft.TimeSeriesInsights/environments/accessPolicies",
         "apiVersion": "2017-11-15",

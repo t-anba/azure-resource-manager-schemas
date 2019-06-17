@@ -2,7 +2,7 @@
   "tests":[
     {
       "name":"servers - empty",
-      "definition":"https://schema.management.azure.com/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers",
       "json":{
         "apiVersion":"2017-12-01-preview",
         "properties":{
@@ -46,7 +46,7 @@
     },
     {
       "name":"servers - min",
-      "definition":"https://schema.management.azure.com/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers",
       "json":{
         "apiVersion":"2017-12-01-preview",
         "name":"server1",
@@ -61,7 +61,7 @@
     },
     {
       "name":"configurations - empty",
-      "definition":"https://schema.management.azure.com/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_configurations",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_configurations",
       "json":{
         "apiVersion":"2017-12-01-preview",
         "properties":{
@@ -83,7 +83,7 @@
     },
     {
       "name":"configurations - min",
-      "definition":"https://schema.management.azure.com/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_configurations",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_configurations",
       "json":{
         "apiVersion":"2017-12-01-preview",
         "name":"innodb_old_blocks_time",
@@ -95,7 +95,7 @@
     },
     {
       "name":"databases - empty",
-      "definition":"https://schema.management.azure.com/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_databases",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_databases",
       "json":{
         "apiVersion":"2017-12-01-preview",
         "properties":{
@@ -117,7 +117,7 @@
     },
     {
       "name":"databases - min",
-      "definition":"https://schema.management.azure.com/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_databases",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_databases",
       "json":{
         "apiVersion":"2017-12-01-preview",
         "name":"MyDb",
@@ -129,7 +129,7 @@
     },
     {
       "name":"firewallRules - empty",
-      "definition":"https://schema.management.azure.com/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_firewallRules",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_firewallRules",
       "json":{
         "apiVersion":"2017-12-01-preview",
         "properties":{
@@ -173,7 +173,7 @@
     },
     {
       "name":"firewallRules - min",
-      "definition":"https://schema.management.azure.com/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_firewallRules",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-12-01-preview/Microsoft.DBforPostgreSQL.json#/resourceDefinitions/servers_firewallRules",
       "json":{
         "apiVersion":"2017-12-01-preview",
         "name":"rule",

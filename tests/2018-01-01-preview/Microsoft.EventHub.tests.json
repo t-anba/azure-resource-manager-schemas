@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "namespaces - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.EventHub/namespaces",
         "apiVersion": "2018-01-01-preview",
@@ -42,7 +42,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.EventHub/namespaces",
         "apiVersion": "2018-01-01-preview",
@@ -73,7 +73,7 @@
           "schemaPath": "/properties/apiVersion/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.EventHub/invalidType",
         "apiVersion": "2015-10-12",
@@ -103,7 +103,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces_networkRuleSets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces_networkRuleSets",
       "json": {
         "apiVersion": "2018-01-01-preview",
         "name": "sdk-Namespace-6019",
@@ -114,7 +114,7 @@
     },
     {
       "name": "NetworkRuleSet - minimal",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces_networkRuleSets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces_networkRuleSets",
       "json": {
         "apiVersion": "2018-01-01-preview",
         "name": "sdk-Namespace-6019",
@@ -126,7 +126,7 @@
     },
     {
       "name": "NetworkRuleSet - allProperties",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces_networkRuleSets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/namespaces_networkRuleSets",
       "json": {
         "apiVersion": "2018-01-01-preview",
         "name": "sdk-Namespace-6019",
@@ -180,7 +180,7 @@
     },
     {
       "name": "clusters - positive",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.EventHub/clusters",
         "apiVersion": "2018-01-01-preview",
@@ -196,7 +196,7 @@
           "schemaPath": "/required/0"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01-preview/Microsoft.EventHub.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.EventHub/clusters",
         "apiVersion": "2018-01-01-preview"

@@ -2,7 +2,7 @@
     "tests": [
         {
             "name": "storageAccounts - Minimal",
-            "definition": "https://schema.management.azure.com/schemas/2017-06-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-06-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
             "json": {
                 "type": "Microsoft.Storage/storageAccounts",
                 "apiVersion": "2017-06-01",
@@ -23,7 +23,7 @@
                     "dataPath": "/"
                 }
             ],
-            "definition": "https://schema.management.azure.com/schemas/2017-06-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-06-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
             "json": {
                 "type": "Microsoft.Storage/storageAccounts",
                 "apiVersion": "2017-06-01",
@@ -41,7 +41,7 @@
                     "dataPath": "/"
                 }
             ],
-            "definition": "https://schema.management.azure.com/schemas/2017-06-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-06-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
             "json": {
                 "type": "Microsoft.Storage/storageAccounts",
                 "apiVersion": "2017-06-01",

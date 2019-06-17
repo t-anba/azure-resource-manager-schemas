@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "storageAccounts - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
       "json": {
         "type": "Microsoft.Storage/storageAccounts",
         "apiVersion": "2018-02-01",
@@ -16,7 +16,7 @@
     },
     {
       "name": "storageAccounts - StorageV2",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
       "json": {
         "type": "Microsoft.Storage/storageAccounts",
         "apiVersion": "2018-02-01",
@@ -30,7 +30,7 @@
     },
     {
       "name": "storageAccounts - Support https traffic only with true",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
       "json": {
         "type": "Microsoft.Storage/storageAccounts",
         "apiVersion": "2018-02-01",
@@ -47,7 +47,7 @@
     },
     {
       "name": "storageAccounts - Support https traffic only with false",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
       "json": {
         "type": "Microsoft.Storage/storageAccounts",
         "apiVersion": "2018-02-01",
@@ -70,7 +70,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
       "json": {
         "type": "Microsoft.Storage/storageAccounts",
         "apiVersion": "2018-02-01",
@@ -87,7 +87,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts",
       "json": {
         "type": "Microsoft.Storage/storageAccounts",
         "apiVersion": "2018-02-01",
@@ -98,7 +98,7 @@
     },
     {
       "name": "storageContainer - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts_blobServices_containers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts_blobServices_containers",
       "json": {
         "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
         "apiVersion": "2018-02-01",
@@ -108,7 +108,7 @@
     },
     {
       "name": "storageContainer - Maximum",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts_blobServices_containers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts_blobServices_containers",
       "json": {
         "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
         "apiVersion": "2018-02-01",
@@ -124,7 +124,7 @@
     },
     {
       "name": "storageContainerImmutabilityPolicies",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts_blobServices_containers_immutabilityPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts_blobServices_containers_immutabilityPolicies",
       "json": {
         "type": "Microsoft.Storage/storageAccounts/blobServices/containers/immutabilityPolicies",
         "apiVersion": "2018-02-01",

@@ -2,7 +2,7 @@
   "tests":[
     {
       "name": "dnsZones",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones",
@@ -14,7 +14,7 @@
     },
     {
       "name": "dnsZones/A",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_A",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_A",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones/A",
@@ -39,7 +39,7 @@
     },
     {
       "name": "dnsZones/AAAA",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_AAAA",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_AAAA",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones/AAAA",
@@ -61,7 +61,7 @@
     },
     {
       "name": "dnsZones/CAA",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_CAA",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_CAA",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones/CAA",
@@ -85,7 +85,7 @@
     },
     {
       "name": "dnsZones/CNAME",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_CNAME",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_CNAME",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones/CNAME",
@@ -105,7 +105,7 @@
     },
     {
       "name": "dnsZones/MX",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_MX",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_MX",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones/MX",
@@ -128,7 +128,7 @@
     },
     {
       "name": "dnsZones/NS",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_NS",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_NS",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones/NS",
@@ -153,7 +153,7 @@
     },
     {
       "name": "dnsZones/PTR",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_PTR",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_PTR",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones/PTR",
@@ -175,7 +175,7 @@
     },
     {
       "name": "dnsZones/SOA",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_SOA",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_SOA",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones/SOA",
@@ -201,7 +201,7 @@
     },
     {
       "name": "dnsZones/SRV",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_SRV",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_SRV",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones/SRV",
@@ -226,7 +226,7 @@
     },
     {
       "name": "dnsZones/TXT",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_TXT",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Network.json#/resourceDefinitions/dnsZones_TXT",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/dnsZones/TXT",

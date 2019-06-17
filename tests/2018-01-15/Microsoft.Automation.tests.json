@@ -2,7 +2,7 @@
     "tests": [
         {
             "name": "compilationJob - create resource",
-            "definition": "https://schema.management.azure.com/schemas/2018-01-15/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_compilationjobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-15/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_compilationjobs",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/compilationjobs",
                 "apiVersion": "2018-01-15",
@@ -16,7 +16,7 @@
         },
         {
             "name": "node configuration - create resource",
-            "definition": "https://schema.management.azure.com/schemas/2018-01-15/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_nodeConfigurations",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-15/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_nodeConfigurations",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/nodeConfigurations",
                 "name": "NodeConfiguration1",

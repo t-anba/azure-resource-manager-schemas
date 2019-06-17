@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test Valid Scheduled Query Rule",
-      "definition": "https://schema.management.azure.com/schemas/2018-04-16/Microsoft.Insights.json#resourceDefinitions/scheduledQueryRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-04-16/Microsoft.Insights.json#resourceDefinitions/scheduledQueryRules",
       "json": {
         "name": "logalertfoo",
         "type": "Microsoft.Insights/scheduledQueryRules",
@@ -43,7 +43,7 @@
     },
     {
       "name": "Test Valid Scheduled Query Rule with Metric Trigger",
-      "definition": "https://schema.management.azure.com/schemas/2018-04-16/Microsoft.Insights.json#resourceDefinitions/scheduledQueryRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-04-16/Microsoft.Insights.json#resourceDefinitions/scheduledQueryRules",
       "json": {
         "name": "logalertfoo",
         "type": "Microsoft.Insights/scheduledQueryRules",
@@ -96,7 +96,7 @@
           "schemaPath": "/required/4"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-04-16/Microsoft.Insights.json#resourceDefinitions/scheduledQueryRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-04-16/Microsoft.Insights.json#resourceDefinitions/scheduledQueryRules",
       "json": {
         "name": "logalertfoo",
         "type": "Microsoft.Insights/scheduledQueryRules",
@@ -113,7 +113,7 @@
           "schemaPath": "/properties/name/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-04-16/Microsoft.Insights.json#resourceDefinitions/scheduledQueryRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-04-16/Microsoft.Insights.json#resourceDefinitions/scheduledQueryRules",
       "json": {
         "name": { },
         "type": "Microsoft.Insights/scheduledQueryRules",

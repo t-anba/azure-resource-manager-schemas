@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "workspaces",
-      "definition": "https://schema.management.azure.com/schemas/2018-11-19/Microsoft.MachineLearningServices.json#/resourceDefinitions/workspaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-11-19/Microsoft.MachineLearningServices.json#/resourceDefinitions/workspaces",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.MachineLearningServices/workspaces",
@@ -19,7 +19,7 @@
     },
     {
       "name": "computes",
-      "definition": "https://schema.management.azure.com/schemas/2018-11-19/Microsoft.MachineLearningServices.json#/resourceDefinitions/workspaces_computes",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-11-19/Microsoft.MachineLearningServices.json#/resourceDefinitions/workspaces_computes",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.MachineLearningServices/workspaces/computes",

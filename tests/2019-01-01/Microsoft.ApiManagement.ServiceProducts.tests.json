@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "ApiManagement Service Products - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_products",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_products",
       "json": {
         "apiVersion": "2019-01-01",
         "type": "Microsoft.ApiManagement/service/products",
@@ -29,7 +29,7 @@
           "schemaPath": "/properties/apiVersion/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_products",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_products",
       "json": {
         "type": "Microsoft.ApiManagement/invalidType",
         "apiVersion": "2015-10-12",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "roleAssignments - basic",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Authorization.json#/resourceDefinitions/roleAssignments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Authorization.json#/resourceDefinitions/roleAssignments",
       "json": {
         "apiVersion": "2017-09-01",
         "name": "validroleAssignments",
@@ -15,7 +15,7 @@
     },
     {
       "name": "roleDefinitions - basic",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Authorization.json#/resourceDefinitions/roleDefinitions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Authorization.json#/resourceDefinitions/roleDefinitions",
       "json": {
         "apiVersion": "2017-09-01",
         "name": "validroleDefinitions",

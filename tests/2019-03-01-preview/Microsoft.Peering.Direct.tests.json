@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "new Direct Peering with two connections",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01-preview/Microsoft.Peering.json#/resourceDefinitions/peerings",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01-preview/Microsoft.Peering.json#/resourceDefinitions/peerings",
       "json": {
         "name": "peeringName",
         "type": "Microsoft.Peering/peerings",

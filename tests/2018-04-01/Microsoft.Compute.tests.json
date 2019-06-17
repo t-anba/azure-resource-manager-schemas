@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Managed Data Disk",
-      "definition": "https://schema.management.azure.com/schemas/2018-04-01/Microsoft.Compute.json#/resourceDefinitions/disks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-04-01/Microsoft.Compute.json#/resourceDefinitions/disks",
       "json": {
         "type": "Microsoft.Compute/disks",
         "name": "myManagedDataDisk",
@@ -19,7 +19,7 @@
     },
     {
       "name": "Snapshots",
-      "definition": "https://schema.management.azure.com/schemas/2018-04-01/Microsoft.Compute.json#/resourceDefinitions/snapshots",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-04-01/Microsoft.Compute.json#/resourceDefinitions/snapshots",
       "json": {
         "type": "Microsoft.Compute/snapshots",
         "name": "myManagedDataDiskSnapshot",

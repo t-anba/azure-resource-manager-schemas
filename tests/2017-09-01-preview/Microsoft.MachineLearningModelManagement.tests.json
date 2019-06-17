@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "accounts",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01-preview/Microsoft.MachineLearningModelManagement.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01-preview/Microsoft.MachineLearningModelManagement.json#/resourceDefinitions/accounts",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.MachineLearningModelManagement/accounts",

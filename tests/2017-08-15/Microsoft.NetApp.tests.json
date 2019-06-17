@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Account - Empty",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/netAppAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/netAppAccounts",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Account - MissingProperties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/netAppAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/netAppAccounts",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.NetApp/netAppAccounts",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Account - Valid",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/netAppAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/netAppAccounts",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.NetApp/netAppAccounts",
@@ -51,7 +51,7 @@
     },
     {
       "name": "CapacityPool - Empty",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -78,7 +78,7 @@
     },
     {
       "name": "CapacityPool - MissingProperties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -113,7 +113,7 @@
     },
     {
       "name": "CapacityPool - TooSmall",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -154,7 +154,7 @@
     },
     {
       "name": "CapacityPool - TooBig",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -196,7 +196,7 @@
     },
     {
       "name": "CapacityPool - Valid",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.NetApp/netAppAccounts/capacityPools",
@@ -212,7 +212,7 @@
     },
     {
       "name": "CapacityPool - invalidServiceLevel",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/capacityPools",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -253,7 +253,7 @@
     },
     {
       "name": "Volume - Empty",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -280,7 +280,7 @@
     },
     {
       "name": "Volume - MissingProperties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -319,7 +319,7 @@
     },
     {
       "name": "Volume - TooSmall",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -361,7 +361,7 @@
     },
     {
       "name": "Volume - TooBig",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -403,7 +403,7 @@
     },
     {
       "name": "Volume - Invalid serviceLevel",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -445,7 +445,7 @@
     },
     {
       "name": "Volume - Valid",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/volumes",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.NetApp/netAppAccounts/capacityPools/volumes",
@@ -462,7 +462,7 @@
     },
     {
       "name": "Snapshot - Empty",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/snapshots",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/snapshots",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -485,7 +485,7 @@
     },
     {
       "name": "Snapshot - MissingProperties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/snapshots",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/snapshots",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -512,7 +512,7 @@
     },
     {
       "name": "Snapshot - Valid",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/snapshots",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-15/Microsoft.NetApp.json#/resourceDefinitions/snapshots",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/snapshots",

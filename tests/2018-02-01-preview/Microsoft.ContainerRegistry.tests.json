@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Container Registry Docker build Task without steps",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01-preview/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_buildTasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01-preview/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_buildTasks",
       "json": {
         "name": "acrbuildtask",
         "type": "Microsoft.ContainerRegistry/registries/buildTasks",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Container Registry Docker build Task with steps",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01-preview/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_buildTasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01-preview/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_buildTasks",
       "json": {
         "name": "acrbuildtask",
         "type": "Microsoft.ContainerRegistry/registries/buildTasks",
@@ -64,7 +64,7 @@
     },
     {
       "name": "Container Registry Docker build Task without steps- Missing Required Properties",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01-preview/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_buildTasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01-preview/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_buildTasks",
       "json": {
         "name": "acrbuildtask",
         "type": "Microsoft.ContainerRegistry/registries/buildTasks",
@@ -142,7 +142,7 @@
     },
     {
       "name": "Container Registry Docker build Task without steps- Invalid Properties",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01-preview/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_buildTasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01-preview/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_buildTasks",
       "json": {
         "name": "acrbuildtask",
         "type": "Microsoft.ContainerRegistry/registries/buildTasks1",
@@ -272,7 +272,7 @@
     },
     {
       "name": "Container Registry Docker build Step- Invalid Properties",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01-preview/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_buildTasks_steps",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01-preview/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_buildTasks_steps",
       "json": {
         "name": "acrbuildtaskstep",
         "type": "Microsoft.ContainerRegistry/registries/buildTasks/steps",

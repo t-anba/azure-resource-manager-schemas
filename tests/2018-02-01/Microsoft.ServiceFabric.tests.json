@@ -31,7 +31,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters",
         "apiVersion": "2018-02-01",
@@ -41,7 +41,7 @@
     },
     {
       "name": "clusters - Many properties",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters",
         "apiVersion": "2018-02-01",
@@ -124,7 +124,7 @@
     },
     {
       "name": "clusters - Minimum properties",
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters",
         "apiVersion": "2018-02-01",
@@ -182,7 +182,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-02-01/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-02-01/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters",
         "apiVersion": "2018-02-01",

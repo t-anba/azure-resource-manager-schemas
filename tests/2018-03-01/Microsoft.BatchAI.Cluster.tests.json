@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "clusters - all features",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.BatchAI/clusters",
         "name": "[variables('cluster_name')]",
@@ -106,7 +106,7 @@
     },
     {
       "name": "clusters - without node setup",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.BatchAI/clusters",
         "name": "[variables('cluster_name')]",
@@ -138,7 +138,7 @@
     },
     {
       "name": "clusters - with default virtual machine configuration",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.BatchAI/clusters",
         "name": "[variables('cluster_name')]",
@@ -161,7 +161,7 @@
     },
     {
       "name": "clusters - with default scale settings",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.BatchAI/clusters",
         "name": "[variables('cluster_name')]",
@@ -179,7 +179,7 @@
     },
     {
       "name": "clusters - without user account settings",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -198,7 +198,7 @@
     },
     {
       "name": "clusters - without vm size",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -221,7 +221,7 @@
     },
     {
       "name": "clusters - setup task without output configuration",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -250,7 +250,7 @@
     },
     {
       "name": "clusters - afs without credentials",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -285,7 +285,7 @@
     },
     {
       "name": "clusters - afs without relative mount path",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -322,7 +322,7 @@
     },
     {
       "name": "clusters - afs without account name",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -359,7 +359,7 @@
     },
     {
       "name": "clusters - afs without url",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -396,7 +396,7 @@
     },
     {
       "name": "clusters - bfs without credentials",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -431,7 +431,7 @@
     },
     {
       "name": "clusters - bfs without relative mount path",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -468,7 +468,7 @@
     },
     {
       "name": "clusters - bfs without account name",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -505,7 +505,7 @@
     },
     {
       "name": "clusters - bfs without container name",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -542,7 +542,7 @@
     },
     {
       "name": "clusters - nfs without server id",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -589,7 +589,7 @@
     },
     {
       "name": "clusters - nfs without relative mount path",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",

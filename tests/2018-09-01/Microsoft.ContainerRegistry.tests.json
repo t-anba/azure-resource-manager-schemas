@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Container Registry Docker build Task Without Trigger",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
       "json": {
         "name": "acrtask",
         "type": "Microsoft.ContainerRegistry/registries/tasks",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Container Registry Docker build Task With Source Trigger",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
       "json": {
         "name": "acrtask",
         "type": "Microsoft.ContainerRegistry/registries/tasks",
@@ -64,7 +64,7 @@
     },
     {
       "name": "Container Registry File Task With Base Image Trigger",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
       "json": {
         "name": "acrtask",
         "type": "Microsoft.ContainerRegistry/registries/tasks",
@@ -89,7 +89,7 @@
     },
     {
       "name": "Container Registry Windows Encoded Task Without Trigger",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
       "json": {
         "name": "acrtask",
         "type": "Microsoft.ContainerRegistry/registries/tasks",
@@ -108,7 +108,7 @@
     },
     {
       "name": "Container Registry Docker build Task - Missing Properties",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
       "json": {
         "name": "acrtask",
         "type": "Microsoft.ContainerRegistry/registries/tasks",
@@ -125,7 +125,7 @@
     },
     {
       "name": "Container Registry Docker build Task - Missing Required Properties",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
       "json": {
         "name": "acrtask",
         "type": "Microsoft.ContainerRegistry/registries/tasks",
@@ -200,7 +200,7 @@
     },
     {
       "name": "Container Registry Docker build Task - Invalid Properties",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
       "json": {
         "name": "acrtask",
         "type": "Microsoft.ContainerRegistry/registries/tasks",
@@ -270,7 +270,7 @@
     },
     {
       "name": "Container Registry Docker build Task - Invalid and Missing Trigger Properties",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.ContainerRegistry.json#/resourceDefinitions/registries_tasks",
       "json": {
         "name": "acrtask",
         "type": "Microsoft.ContainerRegistry/registries/tasks",

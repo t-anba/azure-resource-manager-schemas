@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Workflow - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
       "json": {
         "type": "Microsoft.Logic/workflows",
         "apiVersion": "2017-07-01",
@@ -18,7 +18,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
       "json": {
         "apiVersion": "2017-07-01",
         "properties": {}
@@ -33,7 +33,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
       "json": {
         "type": "Microsoft.Logic/workflows",
         "properties": {}
@@ -48,7 +48,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01/Microsoft.Logic.json#/resourceDefinitions/workflows",
       "json": {
         "type": "Microsoft.Logic/workflows",
         "apiVersion": "2017-07-01"

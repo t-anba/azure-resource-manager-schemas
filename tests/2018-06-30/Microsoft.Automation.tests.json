@@ -2,7 +2,7 @@
     "tests": [
         {
             "name": "python 2 package resource",
-            "definition": "https://schema.management.azure.com/schemas/2018-06-30/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_python2Packages",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-06-30/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_python2Packages",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/python2Packages",
                 "apiVersion": "2018-06-30",
@@ -17,7 +17,7 @@
         },
         {
             "name": "runbook resource 2018-06-30",
-            "definition": "https://schema.management.azure.com/schemas/2018-06-30/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_runbooks",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-06-30/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_runbooks",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/runbooks",
                 "apiVersion": "2018-06-30",

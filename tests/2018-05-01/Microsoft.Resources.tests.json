@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "deployment",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Resources.json#/resourceDefinitions/deployments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Resources.json#/resourceDefinitions/deployments",
       "json": {
         "name": "nested",
         "type": "Microsoft.Resources/deployments",
@@ -21,7 +21,7 @@
     },
     {
       "name": "resource group",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Resources.json#/resourceDefinitions/resourceGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Resources.json#/resourceDefinitions/resourceGroups",
       "json": {
         "name": "testrg",
         "type": "Microsoft.Resources/resourceGroups",
@@ -33,7 +33,7 @@
     },
     {
       "name": "deployment at subscription scope",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Resources.json#/resourceDefinitions/deployments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Resources.json#/resourceDefinitions/deployments",
       "json": {
         "type": "Microsoft.Resources/deployments",
         "name": "rg-nested",
@@ -44,7 +44,7 @@
         ],
         "properties": {
           "template": {
-            "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+            "$schema": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
             "contentVersion": "1.0.0.0",
             "parameters": {},
             "variables": {},

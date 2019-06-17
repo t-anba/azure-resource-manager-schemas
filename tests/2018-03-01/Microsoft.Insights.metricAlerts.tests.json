@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test Valid alert rule",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.Insights.json#resourceDefinitions/metricAlerts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.Insights.json#resourceDefinitions/metricAlerts",
       "json": {
         "name": "ARM Schema test alert",
         "type": "Microsoft.Insights/metricAlerts",
@@ -49,7 +49,7 @@
           "schemaPath": "/required/4"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.Insights.json#resourceDefinitions/metricAlerts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.Insights.json#resourceDefinitions/metricAlerts",
       "json": {
         "name": "ARM Schema Test Invalid Alert",
         "type": "Microsoft.Insights/metricAlerts",
@@ -66,7 +66,7 @@
           "schemaPath": "/properties/name/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.Insights.json#resourceDefinitions/metricAlerts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.Insights.json#resourceDefinitions/metricAlerts",
       "json": {
         "name": {},
         "type": "Microsoft.Insights/metricAlerts",

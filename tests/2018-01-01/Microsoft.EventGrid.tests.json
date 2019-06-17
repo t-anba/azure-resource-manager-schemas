@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "topics - positive",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/topics",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/topics",
       "json": {
         "type": "Microsoft.EventGrid/topics",
         "apiVersion": "2018-01-01",
@@ -25,7 +25,7 @@
           "schemaPath": "/required/0"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/topics",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/topics",
       "json": {
         "type": "Microsoft.EventGrid/topics",
         "apiVersion": "2018-01-01",
@@ -47,7 +47,7 @@
           "schemaPath": "/required/4"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/topics",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/topics",
       "json": {
         "type": "Microsoft.EventGrid/topics",
         "apiVersion": "2018-01-01",
@@ -68,7 +68,7 @@
           "schemaPath": "/required/4"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/topics",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/topics",
       "json": {
         "type": "Microsoft.EventGrid/topics",
         "apiVersion": "2018-01-01",
@@ -90,7 +90,7 @@
           "schemaPath": "/properties/type/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/topics",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/topics",
       "json": {
         "type": "Microsoft.EventGrid/invalidtype",
         "apiVersion": "2018-01-01",
@@ -106,7 +106,7 @@
     },
     {
       "name": "eventSubscriptions - positive",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
       "json": {
         "type": "Microsoft.EventGrid/eventSubscriptions",
         "apiVersion": "2018-01-01",
@@ -131,7 +131,7 @@
     },
     {
       "name": "eventSubscriptions - no optional parameters",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
       "json": {
         "apiVersion": "2018-01-01",
         "properties": {
@@ -146,7 +146,7 @@
     },
     {
       "name": "eventSubscriptions - no destination",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -174,7 +174,7 @@
     },
     {
       "name": "eventSubscriptions - event hub as a destination",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
       "json": {
         "type": "Microsoft.EventGrid/eventSubscriptions",
         "apiVersion": "2018-01-01",
@@ -240,7 +240,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
       "json": {
         "type": "Microsoft.EventGrid/eventSubscriptions",
         "apiVersion": "2018-01-01",
@@ -272,7 +272,7 @@
           "schemaPath": "/properties/type/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.EventGrid.json#/resourceDefinitions/eventSubscriptions",
       "json": {
         "type": "Microsoft.EventGrid/Invalidtype",
         "apiVersion": "2018-01-01",

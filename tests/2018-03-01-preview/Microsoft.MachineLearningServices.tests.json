@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "workspaces",
-      "definition": "https://schema.management.azure.com/schemas/2018-03-01-preview/Microsoft.MachineLearningServices.json#/resourceDefinitions/workspaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01-preview/Microsoft.MachineLearningServices.json#/resourceDefinitions/workspaces",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.MachineLearningServices/workspaces",

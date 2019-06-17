@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "capacities - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
       "json": {
         "type": "Microsoft.PowerBIDedicated/capacities",
         "apiVersion": "2017-10-01",
@@ -22,7 +22,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
       "json": {
         "apiVersion": "2017-10-01",
         "location": "westus",
@@ -41,7 +41,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
       "json": {
         "type": "Microsoft.PowerBIDedicated/capacities",
         "location": "westus",
@@ -60,7 +60,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
       "json": {
         "type": "Microsoft.PowerBIDedicated/capacities",
         "apiVersion": "2017-10-01",
@@ -79,7 +79,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
       "json": {
         "type": "Microsoft.PowerBIDedicated/capacities",
         "location": "westus",
@@ -96,7 +96,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-10-01/Microsoft.PowerBIDedicated.json#/resourceDefinitions/capacities",
       "json": {
         "type": "Microsoft.PowerBIDedicated/capacities",
         "sku": {

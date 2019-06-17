@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "IoTApps-F1-WestUS",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.IoTCentral.json#resourceDefinitions/IoTApps",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.IoTCentral.json#resourceDefinitions/IoTApps",
       "json": {
         "type": "Microsoft.IoTCentral/IoTApps",
         "name": "iotapps-f1-westus",
@@ -36,7 +36,7 @@
     },
     {
       "name": "IoTApps-S1-EastUS2",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.IoTCentral.json#resourceDefinitions/IoTApps",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.IoTCentral.json#resourceDefinitions/IoTApps",
       "json": {
         "type": "Microsoft.IoTCentral/IoTApps",
         "name": "iotapps-s1-eastus2",

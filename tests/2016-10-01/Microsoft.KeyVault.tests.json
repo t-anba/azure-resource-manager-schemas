@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "KeyVault vault test - minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-10-01/Microsoft.KeyVault.json#/resourceDefinitions/vaults",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-10-01/Microsoft.KeyVault.json#/resourceDefinitions/vaults",
       "json": {
         "type": "Microsoft.KeyVault/vaults",
         "name": "[parameters('keyvaultSettings').keyVaultName]",
@@ -36,7 +36,7 @@
     },
     {
       "name": "KeyVault vault test - with secrets",
-      "definition": "https://schema.management.azure.com/schemas/2016-10-01/Microsoft.KeyVault.json#/resourceDefinitions/vaults",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-10-01/Microsoft.KeyVault.json#/resourceDefinitions/vaults",
       "json": {
         "type": "Microsoft.KeyVault/vaults",
         "name": "[parameters('keyvaultSettings').keyVaultName]",

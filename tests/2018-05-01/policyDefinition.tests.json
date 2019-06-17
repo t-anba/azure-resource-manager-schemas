@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "PolicyDefinition tests - valid minimal rule",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "json": {
         "if": {
           "field": "location",
@@ -15,7 +15,7 @@
     },
     {
       "name": "PolicyDefinition tests - valid complex rule",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "json": {
         "if": {
           "not": {
@@ -48,7 +48,7 @@
     },
     {
       "name": "PolicyDefinition tests - valid append details",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "json": {
         "if": {
           "field": "tags",
@@ -71,7 +71,7 @@
     },
     {
       "name": "PolicyDefinition tests - minmal ifNotExists details",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "json": {
         "if": {
           "field": "tags",
@@ -87,7 +87,7 @@
     },
     {
       "name": "PolicyDefinition tests - complex ifNotExists details",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "json": {
         "if": {
           "field": "tags",
@@ -127,7 +127,7 @@
     },
     {
       "name": "PolicyDefinition tests - invalid deployIfNotExists deployment template",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -169,7 +169,7 @@
     },
     {
       "name": "PolicyDefinition tests - complex deployIfNotExists deployment",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "json": {
         "if": {
           "allOf": [
@@ -410,7 +410,7 @@
     },
     {
       "name": "PolicyDefinition tests - invalid ifNotExists existenceCondition",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -434,7 +434,7 @@
     },
     {
       "name": "PolicyDefinition tests - invalid ifNotExists existenceScope",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -457,7 +457,7 @@
     },
     {
       "name": "PolicyDefinition tests - missing append details",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -477,7 +477,7 @@
     },
     {
       "name": "PolicyDefinition tests - invalid effect",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "expectedErrors": [
         {
           "message": "No enum match for: \"foo\"",
@@ -496,7 +496,7 @@
     },
     {
       "name": "PolicyDefinition tests - invalid field property",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -515,7 +515,7 @@
     },
     {
       "name": "PolicyDefinition tests - invalid operator",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -534,7 +534,7 @@
     },
     {
       "name": "PolicyDefinition tests - array for non-array operator",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -553,7 +553,7 @@
     },
     {
       "name": "PolicyDefinition tests - string for array operator",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/policyDefinition.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/policyDefinition.json#",
       "json": {
         "if": {
           "field": "location",

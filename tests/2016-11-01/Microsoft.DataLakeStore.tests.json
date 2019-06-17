@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "accounts - Basic account",
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts",
       "json": {
         "type": "Microsoft.DataLakeStore/accounts",
         "apiVersion": "2016-11-01",
@@ -22,7 +22,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts",
       "json": {
         "location": "East Us 2",
         "properties": {}
@@ -30,7 +30,7 @@
     },
     {
       "name": "accounts - Account with default group, firewall rules, and trusted identity providers",
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts",
       "json": {
         "type": "Microsoft.DataLakeStore/accounts",
         "apiVersion": "2016-11-01",
@@ -62,7 +62,7 @@
     },
     {
       "name": "accounts - Basic firewall rule",
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts_firewallRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts_firewallRules",
       "json": {
         "type": "Microsoft.DataLakeStore/accounts/firewallrules",
         "apiVersion": "2016-11-01",
@@ -77,7 +77,7 @@
     },
     {
       "name": "accounts - Basic trusted identity provider",
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts_trustedIdProviders",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts_trustedIdProviders",
       "json": {
         "type": "Microsoft.DataLakeStore/accounts/trustedidproviders",
         "apiVersion": "2016-11-01",
@@ -92,7 +92,7 @@
     {
       "name": "accounts - From Azure QuickStart templates",
       "expectedErrors": [],
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeStore.json#/resourceDefinitions/accounts",
       "json": {
         "name": "[parameters('adlStoreName')]",
         "type": "Microsoft.DataLakeStore/accounts",

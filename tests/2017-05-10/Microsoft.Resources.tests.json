@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "deployments - basic",
-      "definition": "https://schema.management.azure.com/schemas/2017-05-10/Microsoft.Resources.json#/resourceDefinitions/deployments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-05-10/Microsoft.Resources.json#/resourceDefinitions/deployments",
       "json": {
         "apiVersion": "2017-05-10",
         "name": "nestedTemplate",

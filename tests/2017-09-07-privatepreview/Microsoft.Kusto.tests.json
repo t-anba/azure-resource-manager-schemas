@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "clusters - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
       "json": {
         "name": "cluster1",
         "type": "Microsoft.Kusto/clusters",
@@ -23,7 +23,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
       "json": {
         "name": "cluster1",
         "apiVersion": "2017-09-07-privatepreview",
@@ -43,7 +43,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
       "json": {
         "name": "cluster1",
         "type": "Microsoft.Kusto/clusters",
@@ -63,7 +63,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
       "json": {
         "name": "cluster1",
         "type": "Microsoft.Kusto/clusters",
@@ -83,7 +83,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
       "json": {
         "name": "cluster1",
         "type": "Microsoft.Kusto/clusters",
@@ -99,7 +99,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.Kusto/clusters",
         "sku": {
@@ -113,7 +113,7 @@
 
     {
         "name": "clusters with databases - Minimal",
-        "definition": "https://schema.management.azure.com/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
+        "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters",
         "json": {
           "name": "cluster1",
           "type": "Microsoft.Kusto/clusters",
@@ -125,7 +125,7 @@
           "location": "westus",
           "resources": [{
             "name": "database - Minimal",
-            "definition": "https://schema.management.azure.com/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters_databases",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-07-privatepreview/Microsoft.Kusto.json#/resourceDefinitions/clusters_databases",
               "type": "Microsoft.Kusto/clusters/databases",
               "apiVersion": "2017-09-07-privatepreview",
               "location": "westus",

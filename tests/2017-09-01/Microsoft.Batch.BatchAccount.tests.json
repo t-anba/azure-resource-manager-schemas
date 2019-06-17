@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "batchAccounts - Full resource",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Batch/batchAccounts",

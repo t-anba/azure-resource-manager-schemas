@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "ApiManagement service - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
       "json": {
         "type": "Microsoft.ApiManagement/service",
         "apiVersion": "2019-01-01",
@@ -35,7 +35,7 @@
           "schemaPath": "/properties/apiVersion/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
       "json": {
         "type": "Microsoft.ApiManagement/invalidType",
         "apiVersion": "2015-10-12",
@@ -59,7 +59,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
       "json": {
         "type": "Microsoft.ApiManagement/service",
         "apiVersion": "2019-01-01",
@@ -79,7 +79,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
       "json": {
         "type": "Microsoft.ApiManagement/service",
         "apiVersion": "2019-01-01",
@@ -99,7 +99,7 @@
           "dataPath": "/identity"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
       "json": {
         "type": "Microsoft.ApiManagement/service",
         "apiVersion": "2019-01-01",
@@ -120,7 +120,7 @@
     },
     {
       "name": "ApiManagement service - with KeyVaultId",
-      "definition": "https://schema.management.azure.com/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service",
       "json": {
         "type": "Microsoft.ApiManagement/service",
         "apiVersion": "2019-01-01",

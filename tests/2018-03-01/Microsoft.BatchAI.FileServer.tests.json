@@ -2,7 +2,7 @@
     "tests": [
         {
             "name": "file server - all features",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
             "json": {
                 "type": "Microsoft.BatchAI/fileServers",
                 "name": "nfs",
@@ -28,7 +28,7 @@
         },
         {
             "name": "file server - no sshConfiguration",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
             "expectedErrors":[
                 {
                     "message":"Data does not match any schemas from \"oneOf\"",
@@ -53,7 +53,7 @@
         },
         {
             "name": "file server - no admin username",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
             "expectedErrors":[
                 {
                     "message":"Data does not match any schemas from \"oneOf\"",
@@ -84,7 +84,7 @@
         },
         {
             "name": "file server - no vm size",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
             "expectedErrors":[
                 {
                     "message":"Data does not match any schemas from \"oneOf\"",
@@ -114,7 +114,7 @@
         },
         {
             "name": "file server - no data disks",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
             "expectedErrors":[
                 {
                     "message":"Data does not match any schemas from \"oneOf\"",
@@ -139,7 +139,7 @@
         },
         {
             "name": "file server - no disk count",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
             "expectedErrors":[
                 {
                     "message":"Data does not match any schemas from \"oneOf\"",
@@ -169,7 +169,7 @@
         },
         {
             "name": "file server - no disk size",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
             "expectedErrors":[
                 {
                     "message":"Data does not match any schemas from \"oneOf\"",
@@ -199,7 +199,7 @@
         },
         {
             "name": "file server - wrong caching type",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
             "expectedErrors":[
                 {
                     "message":"Data does not match any schemas from \"oneOf\"",
@@ -230,7 +230,7 @@
         },
         {
             "name": "file server - wrong sku",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
             "expectedErrors":[
                 {
                     "message":"Data does not match any schemas from \"oneOf\"",
@@ -261,7 +261,7 @@
         },
         {
             "name": "file server - wrong sku",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/fileServers",
             "expectedErrors":[
                 {
                     "message":"Data does not match any schemas from \"oneOf\"",

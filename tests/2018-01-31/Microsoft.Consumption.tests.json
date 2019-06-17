@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Budgets- test",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-31/Microsoft.Consumption.json#/resourceDefinitions/budgets",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-31/Microsoft.Consumption.json#/resourceDefinitions/budgets",
       "json": {
         "name": "TestARMTemplateBudget",
         "type": "Microsoft.Consumption/budgets",

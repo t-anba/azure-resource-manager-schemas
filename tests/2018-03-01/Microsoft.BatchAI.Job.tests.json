@@ -2,7 +2,7 @@
     "tests": [
         {
             "name": "jobs - custom with all features",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "json": {
                 "type": "Microsoft.BatchAI/jobs",
                 "name": "custom",
@@ -60,7 +60,7 @@
         },
         {
             "name": "jobs - no cluster",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "expectedErrors": [
                 {
                     "message": "Data does not match any schemas from \"oneOf\"",
@@ -83,7 +83,7 @@
         },
         {
             "name": "jobs - no node count",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "expectedErrors": [
                 {
                     "message": "Data does not match any schemas from \"oneOf\"",
@@ -108,7 +108,7 @@
         },
         {
             "name": "jobs - no output configuration",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "expectedErrors": [
                 {
                     "message": "Data does not match any schemas from \"oneOf\"",
@@ -133,7 +133,7 @@
         },
         {
             "name": "jobs - job preparation without command line",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "expectedErrors": [
                 {
                     "message": "Data does not match any schemas from \"oneOf\"",
@@ -161,7 +161,7 @@
         },
         {
             "name": "jobs - caffe script",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "json": {
                 "type": "Microsoft.BatchAI/jobs",
                 "name": "caffe_script",
@@ -182,7 +182,7 @@
         },
         {
             "name": "jobs - caffe python",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "json": {
                 "type": "Microsoft.BatchAI/jobs",
                 "name": "caffe_python",
@@ -203,7 +203,7 @@
         },
         {
             "name": "jobs - caffe2",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "json": {
                 "type": "Microsoft.BatchAI/jobs",
                 "name": "caffe2",
@@ -223,7 +223,7 @@
         },
         {
             "name": "jobs - chainer",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "json": {
                 "type": "Microsoft.BatchAI/jobs",
                 "name": "chainer",
@@ -244,7 +244,7 @@
         },
         {
             "name": "jobs - cntk python",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "json": {
                 "type": "Microsoft.BatchAI/jobs",
                 "name": "cntk_python",
@@ -266,7 +266,7 @@
         },
         {
             "name": "jobs - cntk script",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "json": {
                 "type": "Microsoft.BatchAI/jobs",
                 "name": "cntk_script",
@@ -288,7 +288,7 @@
         },
         {
             "name": "jobs - pyTorch",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "json": {
                 "type": "Microsoft.BatchAI/jobs",
                 "name": "pytorch",
@@ -310,7 +310,7 @@
         },
         {
             "name": "tensorflow - caffe script",
-            "definition": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-03-01/Microsoft.BatchAI.json#/resourceDefinitions/jobs",
             "json": {
                 "type": "Microsoft.BatchAI/jobs",
                 "name": "tensorflow",

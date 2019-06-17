@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "ApiManagement Service Diagnostic Operation - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_diagnostics_loggers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_diagnostics_loggers",
       "json": {
         "apiVersion": "2018-01-01",
         "type": "Microsoft.ApiManagement/service/diagnostics/loggers",
@@ -31,7 +31,7 @@
           "schemaPath": "/properties/apiVersion/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_diagnostics_loggers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-01-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_diagnostics_loggers",
       "json": {
         "type": "Microsoft.ApiManagement/invalidType",
         "apiVersion": "2015-10-12",

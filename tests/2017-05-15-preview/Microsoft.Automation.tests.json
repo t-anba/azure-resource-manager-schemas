@@ -2,7 +2,7 @@
     "tests": [
         {
             "name": "automationAccounts_softwareUpdateConfigurations resource test",
-            "definition": "https://schema.management.azure.com/schemas/2017-05-15-preview/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_softwareUpdateConfigurations",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-05-15-preview/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_softwareUpdateConfigurations",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/softwareUpdateConfigurations",
                 "name": "testpatch",
@@ -46,7 +46,7 @@
         },
         {
             "name": "automationAccounts_sourceControls resource test",
-            "definition": "https://schema.management.azure.com/schemas/2017-05-15-preview/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_sourceControls",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-05-15-preview/Microsoft.Automation.json#/resourceDefinitions/automationAccounts_sourceControls",
             "json": {
                 "type": "Microsoft.Automation/automationAccounts/sourceControls",
                 "name": "sampleSourceControl",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "pool_minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_pools",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_pools",
       "expectedErrors": [ ],
       "json": {
         "type": "Microsoft.Batch/batchAccounts/pools",
@@ -28,7 +28,7 @@
     },
     {
       "name": "pool_minimalvirtualmachine",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_pools",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_pools",
       "expectedErrors": [ ],
       "json": {
         "type": "Microsoft.Batch/batchAccounts/pools",
@@ -61,7 +61,7 @@
     },
     {
       "name": "pool_full",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_pools",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_pools",
       "expectedErrors": [ ],
       "json": {
         "type": "Microsoft.Batch/batchAccounts/pools",
@@ -189,7 +189,7 @@
     },
     {
       "name": "pool_virtualmachine",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_pools",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_pools",
       "expectedErrors": [ ],
       "json": {
         "type": "Microsoft.Batch/batchAccounts/pools",

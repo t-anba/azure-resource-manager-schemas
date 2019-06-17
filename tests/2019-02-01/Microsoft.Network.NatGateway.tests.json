@@ -2,7 +2,7 @@
   "tests":[
     {
       "name":"nat gateway - referenced resources",
-      "definition":"https://schema.management.azure.com/schemas/2019-02-01/Microsoft.Network.json#/resourceDefinitions/natGateways",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-02-01/Microsoft.Network.json#/resourceDefinitions/natGateways",
       "json":{
         "apiVersion":"2019-02-01",
         "type":"Microsoft.Network/natGateways",

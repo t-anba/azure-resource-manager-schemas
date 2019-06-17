@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "ApiManagement Service Loggers - AzureEventHub",
-      "definition": "https://schema.management.azure.com/schemas/2017-03-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_loggers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-03-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_loggers",
       "json": {
         "apiVersion": "2017-03-01",
         "type": "Microsoft.ApiManagement/service/loggers",
@@ -20,7 +20,7 @@
     },
     {
       "name": "ApiManagement Service Loggers - Azure Application Insight",
-      "definition": "https://schema.management.azure.com/schemas/2017-03-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_loggers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-03-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_loggers",
       "json": {
         "apiVersion": "2017-03-01",
         "type": "Microsoft.ApiManagement/service/loggers",
@@ -48,7 +48,7 @@
           "schemaPath": "/properties/apiVersion/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-03-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_loggers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-03-01/Microsoft.ApiManagement.json#/resourceDefinitions/service_loggers",
       "json": {
         "type": "Microsoft.ApiManagement/invalidType",
         "apiVersion": "2015-10-12",

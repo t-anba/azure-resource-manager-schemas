@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "servers - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -23,7 +23,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "apiVersion": "2017-08-01",
@@ -43,7 +43,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -63,7 +63,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -83,7 +83,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -101,7 +101,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -121,7 +121,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "type": "Microsoft.AnalysisServices/servers",
         "sku": {
@@ -135,7 +135,7 @@
 
     {
       "name": "servers - With different sku name",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -150,7 +150,7 @@
 
     {
       "name": "servers - With incorrect sku name",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -171,7 +171,7 @@
 
     {
       "name": "servers - With sku capacity larger than 1",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -187,7 +187,7 @@
 
     {
       "name": "servers - With property querypoolConnectionMode in properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -204,7 +204,7 @@
 
     {
       "name": "servers - With property backupBlobContainerUri in properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -221,7 +221,7 @@
 
     {
       "name": "servers - With property managedMode in properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -238,7 +238,7 @@
 
     {
       "name": "servers - With property asAdministrators in properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -257,7 +257,7 @@
 
     {
       "name": "servers - With property gatewayDetails in properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -278,7 +278,7 @@
 
     {
       "name": "servers - With property ipV4FirewallSettings in properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",
@@ -309,7 +309,7 @@
 
     {
       "name": "servers - With property backupBlobContainerUri in properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01/Microsoft.AnalysisServices.json#/resourceDefinitions/servers",
       "json": {
         "name": "server1",
         "type": "Microsoft.AnalysisServices/servers",

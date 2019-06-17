@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Customer Insights hubs predictions tests",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "json": {
         "apiVersion": "2017-04-26",
         "name": "customerpredictions",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Customer Insights hubs predictions tests - no required name",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -51,7 +51,7 @@
     },
     {
       "name": "Customer Insights hubs predictions tests - no required apiVersion",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Missing required property: apiVersion",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Customer Insights hubs predictions tests - no required type",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Missing required property: type",
@@ -105,7 +105,7 @@
     },
     {
       "name": "Customer Insights hubs predictions tests - no required properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Missing required property: properties",
@@ -120,7 +120,7 @@
     },
     {
       "name": "Customer Insights hubs predictions tests - no negativeOutcomeExpression under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -147,7 +147,7 @@
     },
     {
       "name": "Customer Insights predictions hubs tests - no positiveOutcomeExpression under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -174,7 +174,7 @@
     },
     {
       "name": "Customer Insights hubs predictions tests - no primaryProfileType under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -201,7 +201,7 @@
     },
     {
       "name": "Customer Insights hubs predictions tests - no scopeExpression under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -228,7 +228,7 @@
     },
     {
       "name": "Customer Insights hubs predictions tests - no autoAnalyze under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -255,7 +255,7 @@
     },
     {
       "name": "Customer Insights hubs predictions tests - no scoreLabel under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -282,7 +282,7 @@
     },
     {
       "name": "Customer Insights hubs predictions tests - no mappings under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_predictions",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",

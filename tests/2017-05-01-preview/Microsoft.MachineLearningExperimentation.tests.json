@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "accounts",
-      "definition": "https://schema.management.azure.com/schemas/2017-05-01-preview/Microsoft.MachineLearningExperimentation.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-05-01-preview/Microsoft.MachineLearningExperimentation.json#/resourceDefinitions/accounts",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.MachineLearningExperimentation/accounts",
@@ -19,7 +19,7 @@
     },
     {
       "name": "workspaces",
-      "definition": "https://schema.management.azure.com/schemas/2017-05-01-preview/Microsoft.MachineLearningExperimentation.json#/resourceDefinitions/accounts_workspaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-05-01-preview/Microsoft.MachineLearningExperimentation.json#/resourceDefinitions/accounts_workspaces",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.MachineLearningExperimentation/accounts/workspaces",
@@ -33,7 +33,7 @@
     },
     {
       "name": "projects",
-      "definition": "https://schema.management.azure.com/schemas/2017-05-01-preview/Microsoft.MachineLearningExperimentation.json#/resourceDefinitions/accounts_workspaces_projects",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-05-01-preview/Microsoft.MachineLearningExperimentation.json#/resourceDefinitions/accounts_workspaces_projects",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.MachineLearningExperimentation/accounts/workspaces/projects",

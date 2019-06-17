@@ -2,7 +2,7 @@
     "tests": [
         {
             "name": "Registation test",
-            "definition": "https://schema.management.azure.com/schemas/2017-06-01/Microsoft.AzureStack.json#/resourceDefinitions/registrations",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-06-01/Microsoft.AzureStack.json#/resourceDefinitions/registrations",
             "json": {
                 "apiVersion": "2017-06-01",
                 "type": "Microsoft.AzureStack/registrations",
@@ -15,7 +15,7 @@
         },
         {
             "name": "Register with customer subscriptions test",
-            "definition": "https://schema.management.azure.com/schemas/2017-06-01/Microsoft.AzureStack.json#/resourceDefinitions/registrations",
+            "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-06-01/Microsoft.AzureStack.json#/resourceDefinitions/registrations",
             "json": {
                 "apiVersion": "2017-06-01",
                 "type": "Microsoft.AzureStack/registrations",

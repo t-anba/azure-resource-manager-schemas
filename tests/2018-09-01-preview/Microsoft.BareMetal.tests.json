@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "CrayServers - Empty",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01-preview/Microsoft.BareMetal.json#/resourceDefinitions/crayServers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01-preview/Microsoft.BareMetal.json#/resourceDefinitions/crayServers",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -29,7 +29,7 @@
     },
     {
       "name": "CrayServers - MissingProperties",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01-preview/Microsoft.BareMetal.json#/resourceDefinitions/crayServers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01-preview/Microsoft.BareMetal.json#/resourceDefinitions/crayServers",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -56,7 +56,7 @@
     },
     {
       "name": "CrayServers - Valid",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01-preview/Microsoft.BareMetal.json#/resourceDefinitions/crayServers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01-preview/Microsoft.BareMetal.json#/resourceDefinitions/crayServers",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.BareMetal/crayServers",

@@ -31,7 +31,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters",
         "apiVersion": "2017-07-01-preview",
@@ -41,7 +41,7 @@
     },
     {
       "name": "clusters - Many properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters",
         "apiVersion": "2017-07-01-preview",
@@ -124,7 +124,7 @@
     },
     {
       "name": "clusters - Minimum properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters",
         "apiVersion": "2017-07-01-preview",
@@ -182,7 +182,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters",
         "apiVersion": "2017-07-01-preview",
@@ -225,7 +225,7 @@
           "schemaPath": "/required/0"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applicationTypes",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applicationTypes",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters/applicationTypes",
         "apiVersion": "2017-07-01-preview",
@@ -235,7 +235,7 @@
     },
     {
       "name": "applicationTypes - Minimum properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applicationTypes",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applicationTypes",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters/applicationTypes",
         "apiVersion": "2017-07-01-preview",
@@ -270,7 +270,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applicationTypes_versions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applicationTypes_versions",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters/applicationTypes/versions",
         "apiVersion": "2017-07-01-preview",
@@ -280,7 +280,7 @@
     },
     {
       "name": "versions - Minimum properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applicationTypes_versions",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applicationTypes_versions",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters/applicationTypes/versions",
         "apiVersion": "2017-07-01-preview",
@@ -329,7 +329,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applications",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applications",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters/applications",
         "apiVersion": "2017-07-01-preview",
@@ -345,7 +345,7 @@
     },
     {
       "name": "applications - Minimum properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applications",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applications",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters/applications",
         "apiVersion": "2017-07-01-preview",
@@ -395,7 +395,7 @@
           ]
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applications_services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applications_services",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters/applications/services",
         "apiVersion": "2017-07-01-preview",
@@ -407,7 +407,7 @@
     },
     {
       "name": "services - Minimum properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applications_services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/Microsoft.ServiceFabric.json#/resourceDefinitions/clusters_applications_services",
       "json": {
         "type": "Microsoft.ServiceFabric/clusters/applications/services",
         "apiVersion": "2017-07-01-preview",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Sites - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "validSite",
@@ -131,7 +131,7 @@
     },
     {
       "name": "Site deployments - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_deployments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_deployments",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "validSite/deployment",
@@ -151,7 +151,7 @@
     },
     {
       "name": "Site domain Ownership Identifiers - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_domainOwnershipIdentifiers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_domainOwnershipIdentifiers",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "validSite/validDomainOwnershipIdentifier",
@@ -163,7 +163,7 @@
     },
     {
       "name": "Site HostName bindings - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_hostNameBindings",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_hostNameBindings",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/hostNameBindings",
@@ -181,7 +181,7 @@
     },
     {
       "name": "Site Hybrid Connections - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_hybridconnection",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_hybridconnection",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/hybridconnection",
@@ -198,7 +198,7 @@
     },
     {
       "name": "Site Hybrid Connection Namespace Relays - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_hybridConnectionNamespaces_relays",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_hybridConnectionNamespaces_relays",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/hybridConnectionNamespaces/relays",
@@ -213,7 +213,7 @@
     },
     {
       "name": "Site Instance Deployments - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_instances_deployments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_instances_deployments",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/instances/deployments",
@@ -232,7 +232,7 @@
     },
     {
       "name": "Site Premier Add ons - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_premieraddons",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_premieraddons",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/premieraddons",
@@ -247,7 +247,7 @@
     },
     {
       "name": "Site Virtual Connections - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_virtualNetworkConnections",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_virtualNetworkConnections",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/virtualNetworkConnections",
@@ -260,7 +260,7 @@
     },
     {
       "name": "Site Virtual Connection Gateways - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_virtualNetworkConnections_gateways",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_virtualNetworkConnections_gateways",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/virtualNetworkConnections/gateways",
@@ -272,7 +272,7 @@
     },
     {
       "name": "Site Slots - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "validSite/validSlot",
@@ -352,7 +352,7 @@
     },
     {
       "name": "Site Slot deployments - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_deployments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_deployments",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "validSite/ValidSlot/deploymentName",
@@ -372,7 +372,7 @@
     },
     {
       "name": "Site Slot domain Ownership Identifiers - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_domainOwnershipIdentifiers",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_domainOwnershipIdentifiers",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "validsite/validSlot/validDomainOwnershipIdentifier",
@@ -384,7 +384,7 @@
     },
     {
       "name": "Site Slot HostName bindings - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_hostNameBindings",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_hostNameBindings",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/slots/hostNameBindings",
@@ -401,7 +401,7 @@
     },
     {
       "name": "Site Slot Hybrid Connections - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_hybridconnection",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_hybridconnection",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/slots/hybridconnection",
@@ -418,7 +418,7 @@
     },
     {
       "name": "Site Slot Hybrid Connection Namespace Relays - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_hybridConnectionNamespaces_relays",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_hybridConnectionNamespaces_relays",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/slots/hybridConnectionNamespaces/relays",
@@ -433,7 +433,7 @@
     },
     {
       "name": "Site Slot Instance Deployments - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_instances_deployments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_instances_deployments",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/slots/instances/deployments",
@@ -452,7 +452,7 @@
     },
     {
       "name": "Site Slot Premier Add ons - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_premieraddons",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_premieraddons",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/slots/premieraddons",
@@ -467,7 +467,7 @@
     },
     {
       "name": "Site Slot Virtual Connections - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_virtualNetworkConnections",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_virtualNetworkConnections",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/slots/virtualNetworkConnections",
@@ -480,7 +480,7 @@
     },
     {
       "name": "Site Slot Virtual Connection Gateways - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_virtualNetworkConnections_gateways",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_virtualNetworkConnections_gateways",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/slots/virtualNetworkConnections/gateways",
@@ -492,7 +492,7 @@
     },
     {
       "name": "Site App Settings - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_appsettings",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_appsettings",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "siteName/appsettings",
@@ -505,7 +505,7 @@
     },
     {
       "name": "Site Connection Strings - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_connectionstrings",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_connectionstrings",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "siteName/connectionstrings",
@@ -524,7 +524,7 @@
     },
     {
       "name": "Site Config - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_config",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_config",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "siteName/web",
@@ -538,7 +538,7 @@
     },
     {
       "name": "Site Slot App Settings - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_appsettings",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_appsettings",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "siteName/slotName/appsettings",
@@ -551,7 +551,7 @@
     },
     {
       "name": "Site Slot Connection Strings - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_connectionstrings",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_connectionstrings",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "siteName/slotName/connectionstrings",
@@ -570,7 +570,7 @@
     },
     {
       "name": "Site Slot Config - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_config",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_config",
       "json": {
         "apiVersion": "2016-08-01",
         "name": "siteName/slotName/web",
@@ -584,7 +584,7 @@
     },
     {
       "name": "Site Source Control - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_sourcecontrol",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_sourcecontrol",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/sourcecontrols",
@@ -599,7 +599,7 @@
     },
     {
       "name": "Site Slot Source Control - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_sourcecontrol",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_sourcecontrol",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/slots/sourcecontrols",
@@ -614,7 +614,7 @@
     },
     {
       "name": "Site Public Certificate - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_publicCertificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_publicCertificates",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/publiccertificates",
@@ -627,7 +627,7 @@
     },
     {
       "name": "Site Slot Public Certificate - basic",
-      "definition": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_publicCertificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites_slots_publicCertificates",
       "json": {
         "apiVersion": "2016-08-01",
         "type": "Microsoft.Web/sites/slots/publiccertificates",

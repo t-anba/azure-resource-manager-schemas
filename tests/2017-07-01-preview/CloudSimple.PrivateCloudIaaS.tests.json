@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "virtualMachines - Missing properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/CloudSimple.PrivateCloudIaaS.json#/resourceDefinitions/virtualMachines",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/CloudSimple.PrivateCloudIaaS.json#/resourceDefinitions/virtualMachines",
       "json": {
         "type": "CloudSimple.PrivateCloudIaaS/virtualMachines",
         "apiVersion": "2017-07-01-preview",
@@ -61,7 +61,7 @@
     },
     {
       "name": "virtualMachines - Required properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/CloudSimple.PrivateCloudIaaS.json#/resourceDefinitions/virtualMachines",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/CloudSimple.PrivateCloudIaaS.json#/resourceDefinitions/virtualMachines",
       "json": {
         "type": "CloudSimple.PrivateCloudIaaS/virtualMachines",
         "apiVersion": "2017-07-01-preview",
@@ -79,7 +79,7 @@
     },
     {
       "name": "virtualMachines - All listed properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-07-01-preview/CloudSimple.PrivateCloudIaaS.json#/resourceDefinitions/virtualMachines",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-07-01-preview/CloudSimple.PrivateCloudIaaS.json#/resourceDefinitions/virtualMachines",
       "json": {
         "type": "CloudSimple.PrivateCloudIaaS/virtualMachines",
         "apiVersion": "2017-07-01-preview",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "valid",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01-preview/Microsoft.Genomics.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01-preview/Microsoft.Genomics.json#/resourceDefinitions/accounts",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Genomics/accounts",
@@ -14,7 +14,7 @@
     },
     {
       "name": "invalid",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01-preview/Microsoft.Genomics.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01-preview/Microsoft.Genomics.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -46,7 +46,7 @@
     },
     {
       "name": "invalidAccountNameLength",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01-preview/Microsoft.Genomics.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01-preview/Microsoft.Genomics.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "String is too short (2 chars), minimum 3",
@@ -64,7 +64,7 @@
     },
     {
       "name": "invalidAPI",
-      "definition": "https://schema.management.azure.com/schemas/2017-08-01-preview/Microsoft.Genomics.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-08-01-preview/Microsoft.Genomics.json#/resourceDefinitions/accounts",
       "expectedErrors": [
         {
           "message": "No enum match for: \"2017-08-01\"",

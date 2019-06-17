@@ -2,7 +2,7 @@
   "tests":[
     {
       "name": "privateDnsZones",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/privateDnsZones",
@@ -14,7 +14,7 @@
     },
     {
       "name": "privateDnsZones/virtualNetworkLinks",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_virtualNetworkLinks",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_virtualNetworkLinks",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
@@ -34,7 +34,7 @@
     },
     {
       "name": "privateDnsZones/A",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_A",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_A",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/privateDnsZones/A",
@@ -59,7 +59,7 @@
     },
     {
       "name": "privateDnsZones/AAAA",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_AAAA",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_AAAA",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/privateDnsZones/AAAA",
@@ -81,7 +81,7 @@
     },
     {
       "name": "privateDnsZones/CNAME",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_CNAME",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_CNAME",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/privateDnsZones/CNAME",
@@ -101,7 +101,7 @@
     },
     {
       "name": "privateDnsZones/MX",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_MX",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_MX",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/privateDnsZones/MX",
@@ -124,7 +124,7 @@
     },
     {
       "name": "privateDnsZones/PTR",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_PTR",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_PTR",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/privateDnsZones/PTR",
@@ -146,7 +146,7 @@
     },
     {
       "name": "privateDnsZones/SOA",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_SOA",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_SOA",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/privateDnsZones/SOA",
@@ -172,7 +172,7 @@
     },
     {
       "name": "privateDnsZones/SRV",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_SRV",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_SRV",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/privateDnsZones/SRV",
@@ -197,7 +197,7 @@
     },
     {
       "name": "privateDnsZones/TXT",
-      "definition": "https://schema.management.azure.com/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_TXT",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-09-01/Microsoft.Network.json#/resourceDefinitions/privateDnsZones_TXT",
       "expectedErrors": [],
       "json": {
         "type": "Microsoft.Network/privateDnsZones/TXT",

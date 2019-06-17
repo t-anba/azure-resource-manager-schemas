@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "registrationAssignments - minimal",
-      "definition": "https://schema.management.azure.com/schemas/2018-06-01-preview/Microsoft.ManagedServices.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-06-01-preview/Microsoft.ManagedServices.json#",
       "json": {
         "type": "Microsft.ManagedServices/registrationAssignments",
         "apiVersion": "2018-06-01-preview",
@@ -15,7 +15,7 @@
 
     {
       "name": "registrationDefinitions - minimal",
-      "definition": "https://schema.management.azure.com/schemas/2018-06-01-preview/Microsoft.ManagedServices.json#",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-06-01-preview/Microsoft.ManagedServices.json#",
       "json": {
         "type": "Microsft.ManagedServices/registrationDefinitions",
         "apiVersion": "2018-06-01-preview",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Customer Insights hubs relationships tests",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
       "json": {
         "apiVersion": "2017-04-26",
         "name": "customerrelationships",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Customer Insights hubs relationships tests - no required name",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -55,7 +55,7 @@
     },
     {
       "name": "Customer Insights hubs relationships tests - no required apiVersion",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
       "expectedErrors": [
         {
           "message": "Missing required property: apiVersion",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Customer Insights hubs relationships tests - no required type",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
       "expectedErrors": [
         {
           "message": "Missing required property: type",
@@ -93,7 +93,7 @@
     },
     {
       "name": "Customer Insights hubs relationships tests - no required properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
       "expectedErrors": [
         {
           "message": "Missing required property: properties",
@@ -108,7 +108,7 @@
     },
     {
       "name": "Customer Insights hubs relationships tests - no profileType under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -127,7 +127,7 @@
     },
     {
       "name": "Customer Insights hubs relationships tests - no relatedProfileType under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -146,7 +146,7 @@
     },
     {
       "name": "Customer Insights relationships hubs tests - cardinality is out of range",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -166,7 +166,7 @@
     },
     {
       "name": "Customer Insights hubs relationships tests - invalid fields definition",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -195,7 +195,7 @@
     },
     {
       "name": "Customer Insights hubs relationships tests - invalid lookupMappings definition",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-26/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_relationships",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Action Group Test - SMS Only",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Action Group Test - Email Only",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Action Group Test - Webhook Only",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -65,7 +65,7 @@
     },
     {
       "name": "Action Group Test - One of each",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -100,7 +100,7 @@
     },
     {
       "name": "Action Group Test - Two of each",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -150,7 +150,7 @@
     },
     {
       "name": "Action Group Test - Itsm Only",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -173,7 +173,7 @@
     },
     {
       "name": "Action Group Test - AzureAppPush Only",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -193,7 +193,7 @@
     },
     {
       "name": "Action Group Test - AutomationRunbook Only",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -218,7 +218,7 @@
     },
     {
       "name": "Action Group Test - Voice Only",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -239,7 +239,7 @@
     },
     {
       "name": "Action Group Test - LogicApp Only",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -261,7 +261,7 @@
     },
     {
       "name": "Action Group Test - AzureFunction Only",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",
@@ -284,7 +284,7 @@
     },
     {
       "name": "Action Group Test - ArmRole Only",
-      "definition": "https://schema.management.azure.com/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2019-03-01/Microsoft.Insights.json#/resourceDefinitions/actionGroups",
       "json": {
         "type": "Microsoft.Insights/actionGroups",
         "apiVersion": "2019-03-01",

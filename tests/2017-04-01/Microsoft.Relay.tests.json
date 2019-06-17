@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "namespaces - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.Relay/namespaces",
         "apiVersion": "2017-04-01",
@@ -25,7 +25,7 @@
           "schemaPath": "/properties/sku/oneOf"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.Relay/namespaces",
         "apiVersion": "2017-04-01",
@@ -51,7 +51,7 @@
           "schemaPath": "/properties/apiVersion/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.Relay/invalidType",
         "apiVersion": "2015-10-12",
@@ -62,7 +62,7 @@
     },
     {
       "name": "namespaces AuthorizationRules- Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_AuthorizationRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_AuthorizationRules",
       "json": {
         "type": "Microsoft.Relay/namespaces/AuthorizationRules",
         "apiVersion": "2017-04-01",
@@ -78,7 +78,7 @@
     },
     {
       "name": "namespaces hybridConnection",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_hybridConnections",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_hybridConnections",
       "json": {
         "type": "Microsoft.Relay/namespaces/hybridConnections",
         "apiVersion": "2017-04-01",
@@ -91,7 +91,7 @@
     },
     {
       "name": "namespaces hybridConnection - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_hybridConnections",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_hybridConnections",
       "json": {
         "type": "Microsoft.Relay/namespaces/hybridConnections",
         "apiVersion": "2017-04-01",
@@ -101,7 +101,7 @@
     },
     {
       "name": "namespaces hybridConnections_authorizationRules - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_hybridConnections_authorizationRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_hybridConnections_authorizationRules",
       "json": {
         "type": "Microsoft.Relay/namespaces/hybridConnections/authorizationRules",
         "apiVersion": "2017-04-01",
@@ -117,7 +117,7 @@
     },
     {
       "name": "namespaces wcfRelays",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_wcfRelays",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_wcfRelays",
       "json": {
         "type": "Microsoft.Relay/namespaces/wcfRelays",
         "apiVersion": "2017-04-01",
@@ -133,7 +133,7 @@
     },
     {
       "name": "namespaces wcfRelay - minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_wcfRelays",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_wcfRelays",
       "json": {
         "type": "Microsoft.Relay/namespaces/wcfRelays",
         "apiVersion": "2017-04-01",
@@ -143,7 +143,7 @@
     },
     {
       "name": "namespaces wcfRelay_authorizationRules - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_wcfRelays_authorizationRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.Relay.json#/resourceDefinitions/namespaces_wcfRelays_authorizationRules",
       "json": {
         "type": "Microsoft.Relay/namespaces/wcfRelays/authorizationRules",
         "apiVersion": "2017-04-01",

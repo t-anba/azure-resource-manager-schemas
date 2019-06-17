@@ -2,7 +2,7 @@
   "tests":[
     {
       "name":"managedInstances databases vulnerabilityAssessments - empty",
-      "definition":"https://schema.management.azure.com/schemas/2017-10-01-preview/Microsoft.Sql.json#/resourceDefinitions/managedInstances_databases_vulnerabilityAssessments",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-10-01-preview/Microsoft.Sql.json#/resourceDefinitions/managedInstances_databases_vulnerabilityAssessments",
       "json":{
         "apiVersion":"2017-10-01-preview",
         "properties":{
@@ -24,7 +24,7 @@
     },
     {
       "name":"managedInstances databases vulnerabilityAssessments - min",
-      "definition":"https://schema.management.azure.com/schemas/2017-10-01-preview/Microsoft.Sql.json#/resourceDefinitions/managedInstances_databases_vulnerabilityAssessments",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-10-01-preview/Microsoft.Sql.json#/resourceDefinitions/managedInstances_databases_vulnerabilityAssessments",
       "json":{
         "apiVersion":"2017-10-01-preview",
         "name":"Default",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "PolicyAssignment valid test",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Authorization.json#resourceDefinitions/policyAssignments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Authorization.json#resourceDefinitions/policyAssignments",
       "json": {
         "apiVersion": "2018-05-01",
         "sku": {
@@ -41,7 +41,7 @@
     },
     {
       "name": "PolicyAssignment invalid test",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01/Microsoft.Authorization.json#resourceDefinitions/policyAssignments",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01/Microsoft.Authorization.json#resourceDefinitions/policyAssignments",
       "json": {
         "apiVersion": "2018-05-01",
         "sku": {

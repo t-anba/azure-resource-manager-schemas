@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Customer Insights hubs authorization policies tests",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
       "json": {
         "apiVersion": "2017-01-01",
         "name": "customerpolicies",
@@ -16,7 +16,7 @@
     },
     {
       "name": "Customer Insights hubs authorization policies tests - no required name",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -35,7 +35,7 @@
     },
     {
       "name": "Customer Insights hubs authorization policies tests - no required apiVersion",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
       "expectedErrors": [
         {
           "message": "Missing required property: apiVersion",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Customer Insights hubs authorization policies tests - no required type",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
       "expectedErrors": [
         {
           "message": "Missing required property: type",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Customer Insights hubs authorization policies tests - no required properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
       "expectedErrors": [
         {
           "message": "Missing required property: properties",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Customer Insights hubs authorization policies tests - no required permissions under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -107,7 +107,7 @@
     },
     {
       "name": "Customer Insights authorization policies hubs tests - permission is out of range",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_authorizationPolicies",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",

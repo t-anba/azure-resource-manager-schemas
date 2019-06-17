@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "vaults - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.RecoveryServices.json#/resourceDefinitions/vaults",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.RecoveryServices.json#/resourceDefinitions/vaults",
       "json": {
         "type": "Microsoft.RecoveryServices/vaults",
         "apiVersion": "2016-06-01",
@@ -24,7 +24,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.RecoveryServices.json#/resourceDefinitions/vaults",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.RecoveryServices.json#/resourceDefinitions/vaults",
       "json": {
         "type": "Microsoft.RecoveryServices/vaults",
         "location": "West Us",
@@ -45,7 +45,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.RecoveryServices.json#/resourceDefinitions/vaults",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.RecoveryServices.json#/resourceDefinitions/vaults",
       "json": {
         "type": "Microsoft.RecoveryServices/vaults",
         "apiVersion": "2016-06-01",
@@ -57,7 +57,7 @@
 
     {
       "name": "Put Vault Extended Info",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.RecoveryServices.json#/resourceDefinitions/vaults_extendedInformation",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.RecoveryServices.json#/resourceDefinitions/vaults_extendedInformation",
       "json": {
         "type": "Microsoft.RecoveryServices/vaults/extendedInformation",
         "apiVersion": "2016-06-01",
@@ -70,7 +70,7 @@
 
     {
       "name": "Put Vault Certificate",
-      "definition": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.RecoveryServices.json#/resourceDefinitions/vaults_certificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-06-01/Microsoft.RecoveryServices.json#/resourceDefinitions/vaults_certificates",
       "json": {
         "name": "testvaultCertificate",
         "type": "Microsoft.RecoveryServices/vaults/certificates",

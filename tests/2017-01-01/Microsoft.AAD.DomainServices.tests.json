@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "domain services - basic test",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.AAD.json#/resourceDefinitions/domainServices",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.AAD.json#/resourceDefinitions/domainServices",
       "json": {
         "apiVersion": "2017-01-01",
         "name": "dcaas.onmicrosoft.com",
@@ -16,7 +16,7 @@
     },
 	{
       "name":"domain services - missing required name and location",
-      "definition":"https://schema.management.azure.com/schemas/2017-01-01/Microsoft.AAD.json#/resourceDefinitions/domainServices",
+      "definition":"https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.AAD.json#/resourceDefinitions/domainServices",
       "expectedErrors":[
         {
           "message":"Missing required property: name",

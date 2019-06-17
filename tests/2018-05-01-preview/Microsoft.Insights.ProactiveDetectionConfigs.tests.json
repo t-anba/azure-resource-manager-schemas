@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test valid proactive detection configuration rule",
-      "definition": "https://schema.management.azure.com/schemas/2018-05-01-preview/Microsoft.Insights.json#resourceDefinitions/ProactiveDetectionConfigs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-05-01-preview/Microsoft.Insights.json#resourceDefinitions/ProactiveDetectionConfigs",
       "json": {
         "name": "longdependencyduration",
         "type": "Microsoft.Insights/ProactiveDetectionConfigs",

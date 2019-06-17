@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "certificates_pfx",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_certificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_certificates",
       "expectedErrors": [ ],
       "json": {
         "type": "Microsoft.Batch/batchAccounts/certificates",
@@ -22,7 +22,7 @@
     },
     {
       "name": "certificates_minimalpfx",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_certificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_certificates",
       "expectedErrors": [ ],
       "json": {
         "type": "Microsoft.Batch/batchAccounts/certificates",
@@ -39,7 +39,7 @@
     },
     {
       "name": "certificates_cer",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_certificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_certificates",
       "expectedErrors": [ ],
       "json": {
         "type": "Microsoft.Batch/batchAccounts/certificates",
@@ -58,7 +58,7 @@
     },
     {
       "name": "certificates_minimalcer",
-      "definition": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_certificates",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-09-01/Microsoft.Batch.json#/resourceDefinitions/batchAccounts_certificates",
       "expectedErrors": [ ],
       "json": {
         "type": "Microsoft.Batch/batchAccounts/certificates",

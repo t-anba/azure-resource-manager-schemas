@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "accounts - Basic account",
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts",
       "json": {
         "type": "Microsoft.DataLakeAnalytics/accounts",
         "apiVersion": "2016-11-01",
@@ -29,7 +29,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts",
       "json": {
         "location": "East Us 2",
         "properties": {
@@ -44,7 +44,7 @@
     },
     {
       "name": "accounts - Account with Data Lake Store account, storage accounts, firewall rules, and compute policies",
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts",
       "json": {
         "type": "Microsoft.DataLakeAnalytics/accounts",
         "apiVersion": "2016-11-01",
@@ -91,7 +91,7 @@
     },
     {
       "name": "accounts - Basic Data Lake Store account",
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts_dataLakeStoreAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts_dataLakeStoreAccounts",
       "json": {
         "type": "Microsoft.DataLakeAnalytics/accounts/datalakestoreaccounts",
         "apiVersion": "2016-11-01",
@@ -100,7 +100,7 @@
     },
     {
       "name": "accounts - Basic storage account",
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts_storageAccounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts_storageAccounts",
       "json": {
         "type": "Microsoft.DataLakeAnalytics/accounts/storageaccounts",
         "apiVersion": "2016-11-01",
@@ -113,7 +113,7 @@
     },
     {
       "name": "accounts - Basic firewall rule",
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts_firewallRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts_firewallRules",
       "json": {
         "type": "Microsoft.DataLakeAnalytics/accounts/firewallrules",
         "apiVersion": "2016-11-01",
@@ -127,7 +127,7 @@
     },
     {
       "name": "accounts - Basic compute policy",
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts_computePolicies",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts_computePolicies",
       "json": {
         "type": "Microsoft.DataLakeAnalytics/accounts/computepolicies",
         "apiVersion": "2016-11-01",
@@ -144,7 +144,7 @@
     {
       "name": "accounts - From GitHub Quickstart repository",
       "expectedErrors": [],
-      "definition": "https://schema.management.azure.com/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-11-01/Microsoft.DataLakeAnalytics.json#/resourceDefinitions/accounts",
       "json": {
         "name": "[parameters('adlAnalyticsName')]",
         "type": "Microsoft.DataLakeAnalytics/accounts",

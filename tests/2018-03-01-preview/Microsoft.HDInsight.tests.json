@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "HDInsight clusters - empty",
-      "definition": "https://schema.management.azure.com/schemas/2015-03-01-preview/Microsoft.HDInsight.json#resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-03-01-preview/Microsoft.HDInsight.json#resourceDefinitions/clusters",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -29,7 +29,7 @@
     },
     {
       "name": "HDInsight clusters - min",
-      "definition": "https://schema.management.azure.com/schemas/2015-03-01-preview/Microsoft.HDInsight.json#resourceDefinitions/clusters",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-03-01-preview/Microsoft.HDInsight.json#resourceDefinitions/clusters",
       "json": {
         "name": "[parameters('hdinsightSettings').clusterName]",
         "type": "Microsoft.HDInsight/clusters",
@@ -93,7 +93,7 @@
     },
     {
       "name": "HDInsight applications - empty",
-      "definition": "https://schema.management.azure.com/schemas/2015-03-01-preview/Microsoft.HDInsight.json#resourceDefinitions/clusters_applications",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-03-01-preview/Microsoft.HDInsight.json#resourceDefinitions/clusters_applications",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -120,7 +120,7 @@
     },
     {
       "name": "HDInsight applications - min",
-      "definition": "https://schema.management.azure.com/schemas/2015-03-01-preview/Microsoft.HDInsight.json#resourceDefinitions/clusters_applications",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-03-01-preview/Microsoft.HDInsight.json#resourceDefinitions/clusters_applications",
       "json": {
         "name": "[parameters('hdinsightSettings').applications]",
         "type": "Microsoft.HDInsight/clusters/applications",

@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Customer Insights hubs connectors tests",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
       "json": {
         "apiVersion": "2017-01-01",
         "name": "customerconnectors",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Customer Insights hubs connectors tests - no required name",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
       "expectedErrors": [
         {
           "message": "Missing required property: name",
@@ -43,7 +43,7 @@
     },
     {
       "name": "Customer Insights hubs connectors tests - no required apiVersion",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
       "expectedErrors": [
         {
           "message": "Missing required property: apiVersion",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Customer Insights hubs connectors tests - no required type",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
       "expectedErrors": [
         {
           "message": "Missing required property: type",
@@ -89,7 +89,7 @@
     },
     {
       "name": "Customer Insights hubs connectors tests - no required properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
       "expectedErrors": [
         {
           "message": "Missing required property: properties",
@@ -104,7 +104,7 @@
     },
     {
       "name": "Customer Insights hubs connectors tests - no required connectorType under properties",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",
@@ -127,7 +127,7 @@
     },
     {
       "name": "Customer Insights hubs connectors tests - connectorType is out of range",
-      "definition": "https://schema.management.azure.com/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-01-01/Microsoft.CustomerInsights.json#/resourceDefinitions/hubs_connectors",
       "expectedErrors": [
         {
           "message": "Data does not match any schemas from \"oneOf\"",

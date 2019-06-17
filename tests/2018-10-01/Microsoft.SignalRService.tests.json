@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "SignalR-Free-WestUS",
-      "definition": "https://schema.management.azure.com/schemas/2018-10-01/Microsoft.SignalRService.json#resourceDefinitions/SignalR",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-10-01/Microsoft.SignalRService.json#resourceDefinitions/SignalR",
       "json": {
         "type": "Microsoft.SignalRService/SignalR",
         "name": "signalr-free-westus",
@@ -27,7 +27,7 @@
     },
     {
       "name": "SignalR-Standard-EastUS",
-      "definition": "https://schema.management.azure.com/schemas/2018-10-01/Microsoft.SignalRService.json#resourceDefinitions/SignalR",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-10-01/Microsoft.SignalRService.json#resourceDefinitions/SignalR",
       "json": {
         "type": "Microsoft.SignalRService/SignalR",
         "name": "signalr-standard-eastus",

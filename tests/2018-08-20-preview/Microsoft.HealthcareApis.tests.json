@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "services - full",
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "type": "Microsoft.HealthcareApis/services",
@@ -44,7 +44,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "apiVersion": "2018-08-20-preview",
@@ -62,7 +62,7 @@
 
     {
       "name": "services - no cosmosDbConfiguration",
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "apiVersion": "2018-08-20-preview",
@@ -87,7 +87,7 @@
           "dataPath": "/properties"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "apiVersion": "2018-08-20-preview",
@@ -105,7 +105,7 @@
           "dataPath": "/properties"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "apiVersion": "2018-08-20-preview",
@@ -125,7 +125,7 @@
           "dataPath": "/properties"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "apiVersion": "2018-08-20-preview",
@@ -147,7 +147,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "type": "Microsoft.HealthcareApis/services",
@@ -171,7 +171,7 @@
           "dataPath": "/apiVersion"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "type": "Microsoft.HealthcareApis/services",
@@ -196,7 +196,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "type": "Microsoft.HealthcareApis/services",
@@ -220,7 +220,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "type": "Microsoft.HealthcareApis/services",
@@ -243,7 +243,7 @@
           "dataPath": "/kind"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "name": "service1",
         "type": "Microsoft.HealthcareApis/services",
@@ -268,7 +268,7 @@
           "dataPath": "/"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "type": "Microsoft.HealthcareApis/services",
         "location": "westus2",
@@ -292,7 +292,7 @@
           "dataPath": "/name"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "type": "Microsoft.HealthcareApis/services",
         "name": "ab",
@@ -317,7 +317,7 @@
           "dataPath": "/name"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "type": "Microsoft.HealthcareApis/services",
         "name": "abcdefghijklmnopqrstuvwxyz",
@@ -342,7 +342,7 @@
           "dataPath": "/properties"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "type": "Microsoft.HealthcareApis/services",
         "name": "service1",
@@ -372,7 +372,7 @@
           "dataPath": "/properties"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "type": "Microsoft.HealthcareApis/services",
         "name": "service1",
@@ -402,7 +402,7 @@
           "dataPath": "/properties"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "type": "Microsoft.HealthcareApis/services",
         "name": "service1",
@@ -430,7 +430,7 @@
           "dataPath": "/properties"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-08-20-preview/Microsoft.HealthcareApis.json#/resourceDefinitions/services",
       "json": {
         "type": "Microsoft.HealthcareApis/services",
         "name": "service1",

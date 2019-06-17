@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "ContainerGroups",
-      "definition": "https://schema.management.azure.com/schemas/2018-04-01/Microsoft.ContainerInstance.json#/resourceDefinitions/containerGroups",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2018-04-01/Microsoft.ContainerInstance.json#/resourceDefinitions/containerGroups",
       "json": {
         "name": "[parameters('containergroupname')]",
         "type": "Microsoft.ContainerInstance/containerGroups",

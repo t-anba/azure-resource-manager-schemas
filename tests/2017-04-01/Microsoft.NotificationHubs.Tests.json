@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "namespaces - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.NotificationHubs.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.NotificationHubs.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.NotificationHubs/namespaces",
         "apiVersion": "2017-04-01",
@@ -29,7 +29,7 @@
           "schemaPath": "/properties/apiVersion/type"
         }
       ],
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.NotificationHubs.json#/resourceDefinitions/namespaces",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.NotificationHubs.json#/resourceDefinitions/namespaces",
       "json": {
         "type": "Microsoft.NotificationHubs/invalidType",
         "apiVersion": "2015-10-12",
@@ -40,7 +40,7 @@
     },
     {
       "name": "namespaces AuthorizationRules- Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.NotificationHubs.json#/resourceDefinitions/namespaces_authorizationRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.NotificationHubs.json#/resourceDefinitions/namespaces_authorizationRules",
       "json": {
         "type": "Microsoft.NotificationHubs/namespaces/authorizationRules",
         "apiVersion": "2017-04-01",
@@ -56,7 +56,7 @@
     },
     {
       "name": "NotificationHubs - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.NotificationHubs.json#/resourceDefinitions/notificationHubs",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.NotificationHubs.json#/resourceDefinitions/notificationHubs",
       "json": {
         "type": "Microsoft.NotificationHubs/namespaces/notificationHubs",
         "apiVersion": "2017-04-01",
@@ -67,7 +67,7 @@
     },
     {
       "name": "namespaces notificationHubs_authorizationRules - Minimal",
-      "definition": "https://schema.management.azure.com/schemas/2017-04-01/Microsoft.NotificationHubs.json#/resourceDefinitions/namespaces_notificationHubs_authorizationRules",
+      "definition": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2017-04-01/Microsoft.NotificationHubs.json#/resourceDefinitions/namespaces_notificationHubs_authorizationRules",
       "json": {
         "type": "Microsoft.NotificationHubs/namespaces/notificationHubs/authorizationRules",
         "apiVersion": "2017-04-01",

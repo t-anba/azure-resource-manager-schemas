@@ -19,27 +19,8 @@
       "description": "The apiProfile to use for all resources in the template."
     },
     "resources": {
-      "name": "[variables('storageAccountName')]",
       "type": "array",
-      "description": "Collection of resources to be deployed",
-      "items": {
-        "oneOf": [
-          {
-            "allOf": [
-              {
-                "$ref": "#/definitions/resourceBase"
-              },
-              {
-                "oneOf": [
-                  {
-                    "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-10-01/Microsoft.KeyVault.json"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
+      "description": "Collection of resources to be deployed"
     }
   }
 }

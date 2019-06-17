@@ -20,7 +20,29 @@
     },
     "resources": {
       "type": "array",
-      "description": "Collection of resources to be deployed"
+      "description": "Collection of resources to be deployed",
+      "items": {
+        "oneOf": [
+          {
+            "allOf": [
+              {
+                "$ref": "#/definitions/resourceBase"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "resourceBase": {
+      "properties": {
+        "tags": {
+          "type": "object",
+          "description": "Name-value pairs to add to the resource"
+        },
+        "comments": {
+          "type": "string"
+        }
+      }
     }
   }
 }

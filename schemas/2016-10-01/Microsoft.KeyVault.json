@@ -33,6 +33,9 @@
               "additionalProperties": {
                 "type": "string"
               }
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "The tags that will be assigned to the key vault."
@@ -41,6 +44,9 @@
           "oneOf": [
             {
               "$ref": "#/definitions/VaultProperties"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Properties of the vault"
@@ -80,6 +86,9 @@
                 "replace",
                 "remove"
               ]
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ]
         },
@@ -99,6 +108,9 @@
           "oneOf": [
             {
               "$ref": "#/definitions/VaultAccessPolicyProperties"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Properties of the access policy"
@@ -137,6 +149,9 @@
               "additionalProperties": {
                 "type": "string"
               }
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "The tags that will be assigned to the secret. "
@@ -145,6 +160,9 @@
           "oneOf": [
             {
               "$ref": "#/definitions/SecretProperties"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Properties of the secret"
@@ -168,6 +186,9 @@
             {
               "type": "string",
               "pattern": "^[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}$"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "The Azure Active Directory tenant ID that should be used for authenticating requests to the key vault."
@@ -181,6 +202,9 @@
             {
               "type": "string",
               "pattern": "^[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}$"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": " Application ID of the client making request on behalf of a principal"
@@ -189,6 +213,9 @@
           "oneOf": [
             {
               "$ref": "#/definitions/Permissions"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Permissions the identity has for keys, secrets and certificates."
@@ -229,6 +256,9 @@
                   "purge"
                 ]
               }
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Permissions to keys"
@@ -250,6 +280,9 @@
                   "purge"
                 ]
               }
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Permissions to secrets"
@@ -277,6 +310,9 @@
                   "purge"
                 ]
               }
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Permissions to certificates"
@@ -300,6 +336,9 @@
                   "deletesas"
                 ]
               }
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Permissions to storage accounts"
@@ -314,6 +353,9 @@
           "oneOf": [
             {
               "type": "boolean"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Determines whether the object is enabled."
@@ -322,6 +364,9 @@
           "oneOf": [
             {
               "type": "integer"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Not before date in UTC expressed as a unix time integer.."
@@ -330,6 +375,9 @@
           "oneOf": [
             {
               "type": "integer"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Expiry date in UTC expressed as a unix time integer.."
@@ -352,6 +400,9 @@
           "oneOf": [
             {
               "$ref": "#/definitions/SecretAttributes"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "The attributes of the secret."
@@ -369,6 +420,9 @@
               "enum": [
                 "A"
               ]
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "SKU family name"
@@ -381,6 +435,9 @@
                 "standard",
                 "premium"
               ]
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "SKU name to specify whether the key vault is a standard vault or a premium vault."
@@ -402,6 +459,9 @@
               "items": {
                 "$ref": "#/definitions/AccessPolicyEntry"
               }
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "An array of 0 to 16 identities that have access to the key vault. All identities in the array must use the same tenant ID as the key vault's tenant ID."
@@ -420,6 +480,9 @@
             {
               "type": "string",
               "pattern": "^[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}$"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "The Azure Active Directory tenant ID that should be used for authenticating requests to the key vault."
@@ -428,6 +491,9 @@
           "oneOf": [
             {
               "$ref": "#/definitions/Sku"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "SKU details"
@@ -439,6 +505,9 @@
               "items": {
                 "$ref": "#/definitions/AccessPolicyEntry"
               }
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "An array of 0 to 16 identities that have access to the key vault. All identities in the array must use the same tenant ID as the key vault's tenant ID."
@@ -447,6 +516,9 @@
           "oneOf": [
             {
               "type": "boolean"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Property to specify whether Azure Virtual Machines are permitted to retrieve certificates stored as secrets from the key vault."
@@ -455,6 +527,9 @@
           "oneOf": [
             {
               "type": "boolean"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Property to specify whether Azure Disk Encryption is permitted to retrieve secrets from the vault and unwrap keys."
@@ -463,6 +538,9 @@
           "oneOf": [
             {
               "type": "boolean"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Property to specify whether Azure Resource Manager is permitted to retrieve secrets from the key vault."
@@ -471,6 +549,9 @@
           "oneOf": [
             {
               "type": "boolean"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Property to specify whether the 'soft delete' functionality is enabled for this key vault. It does not accept false value."
@@ -483,6 +564,9 @@
                 "recover",
                 "default"
               ]
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "The vault's create mode to indicate whether the vault need to be recovered or not."
@@ -506,6 +590,9 @@
                 "replace",
                 "remove"
               ]
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ]
         },
@@ -525,6 +612,9 @@
           "oneOf": [
             {
               "$ref": "#/definitions/VaultAccessPolicyProperties"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Properties of the access policy"
@@ -563,6 +653,9 @@
               "additionalProperties": {
                 "type": "string"
               }
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "The tags that will be assigned to the secret. "
@@ -571,6 +664,9 @@
           "oneOf": [
             {
               "$ref": "#/definitions/SecretProperties"
+            },
+            {
+              "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
             }
           ],
           "description": "Properties of the secret"

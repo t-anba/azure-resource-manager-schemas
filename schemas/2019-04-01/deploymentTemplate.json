@@ -50,6 +50,9 @@
         },
         "comments": {
           "type": "string"
+        },
+        "angela":{
+          "type":"object"
         }
       }
     }

@@ -27,6 +27,11 @@
             "allOf": [
               {
                 "$ref": "#/definitions/resourceBase"
+              },
+              {
+                "oneOf": [
+                  { "$ref": "https://raw.githubusercontent.com/t-anba/azure-resource-manager-schemas/t-anbaAzSDeploymentTemplate/schemas/2016-10-01/Microsoft.KeyVault.json" }
+                ]
               }
             ]
           }

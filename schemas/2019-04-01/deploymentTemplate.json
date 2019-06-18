@@ -39,6 +39,10 @@
           "type": "object",
           "description": "Name-value pairs to add to the resource"
         },
+        "blah":{
+          "type": "object",
+          "description": "blahblah"
+        },
         "comments": {
           "type": "string"
         }

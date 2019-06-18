@@ -47,14 +47,14 @@
           "description": "Name-value pairs to add to the resource"
         },
         "blah": {
-          "type": "string",
+          "type": "object",
           "description": "blahblah"
         },
         "comments": {
           "type": "string"
         },
         "angela": {
-          "type": "string"
+          "type": "object"
         }
       }
     }

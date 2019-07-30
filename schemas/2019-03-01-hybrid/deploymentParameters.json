@@ -46,10 +46,14 @@
       "additionalProperties": false,
       "oneOf": [
         {
-          "required": ["value"]
+          "required": [
+            "value"
+          ]
         },
         {
-          "required": ["reference"]
+          "required": [
+            "reference"
+          ]
         }
       ]
     }

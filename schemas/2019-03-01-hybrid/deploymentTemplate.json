@@ -267,9 +267,6 @@
           "$ref": "https://schema.management.azure.com/schemas/2016-10-01/Microsoft.KeyVault.json#/resourceDefinitions/vaults/accessPolicies"
         },
         {
-          "$ref": "https://schema.management.azure.com/schemas/2016-10-01/Microsoft.KeyVault.json#/resourceDefinitions/vaults/secrets"
-        },
-        {
           "$ref": "https://schema.management.azure.com/schemas/2017-10-01/Microsoft.Network.json#/resourceDefinitions/connections"
         },
         {

@@ -300,9 +300,6 @@
           "$ref": "https://schema.management.azure.com/schemas/2016-01-01/Microsoft.Storage.json#/resourceDefinitions/storageAccounts"
         },
         {
-          "$ref": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sourceControls"
-        },
-        {
           "$ref": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites"
         }
       ]

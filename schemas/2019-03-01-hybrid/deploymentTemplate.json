@@ -316,9 +316,6 @@
         },
         {
           "$ref": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites/slots/hostNameBindings"
-        },
-        {
-          "$ref": "https://schema.management.azure.com/schemas/2016-09-01/Microsoft.Web.json#/resourceDefinitions/serverFarms"
         }
       ]
     },
@@ -590,9 +587,6 @@
         },
         {
           "$ref": "https://schema.management.azure.com/schemas/2016-09-01/Microsoft.Web.json#/resourceDefinitions/hostingEnvironments_multiRolePools"
-        },
-        {
-          "$ref": "https://schema.management.azure.com/schemas/2016-09-01/Microsoft.Web.json#/resourceDefinitions/serverfarms"
         },
         {
           "$ref": "https://schema.management.azure.com/schemas/2016-09-01/Microsoft.Web.json#/resourceDefinitions/serverfarms_virtualNetworkConnections_gateways"

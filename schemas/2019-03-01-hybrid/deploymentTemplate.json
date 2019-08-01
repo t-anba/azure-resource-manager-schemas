@@ -307,9 +307,6 @@
         },
         {
           "$ref": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites/domainOwnershipIdentifiers"
-        },
-        {
-          "$ref": "https://schema.management.azure.com/schemas/2016-08-01/Microsoft.Web.json#/resourceDefinitions/sites/hostNameBindings"
         }
       ]
     },

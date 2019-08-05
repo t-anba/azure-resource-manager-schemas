@@ -246,9 +246,6 @@
     "2018-03-01-hybrid-profile-resource": {
       "oneOf": [
         {
-          "$ref": "https://schema.management.azure.com/schemas/2016-09-01/Microsoft.Authorization.json#/resourceDefinitions/locks"
-        },
-        {
           "$ref": "https://schema.management.azure.com/schemas/2017-03-30/Microsoft.Compute.json#/resourceDefinitions/availabilitySets"
         },
         {

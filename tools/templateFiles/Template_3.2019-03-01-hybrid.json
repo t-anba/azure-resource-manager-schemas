@@ -1059,6 +1059,18 @@
         },
         {
             "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2017-03-30",
+            "name": "virtualMachines",
+            "location": "West Central US",
+            "sku": {
+                "name": "name"
+            },
+            "properties": {
+                "VirtualMachineProperties": {}
+            }
+        },
+        {
+            "type": "Microsoft.Compute/virtualMachines",
             "apiVersion": "2017-12-01",
             "name": "virtualMachines",
             "location": "West Central US",
@@ -1114,13 +1126,15 @@
                 "name": "name"
             },
             "properties": {
-                "publisher":"",
-                "additionalProperties": {}
+                "publisher": "",
+                "type": "",
+                "typeHandlerVersion":"",
+                "settings":""
             }
         },
         {
             "type": "Microsoft.Compute/availabilitySets",
-            "apiVersion": "2017-12-01",
+            "apiVersion": "2017-03-30",
             "name": "sets",
             "location": "West Central US",
             "sku": {
@@ -1139,7 +1153,10 @@
                 "name": "name"
             },
             "properties": {
-                "additionalProperties": {}
+                "publisher": "",
+                "type": "",
+                "typeHandlerVersion":"",
+                "settings":""
             }
         },
         {

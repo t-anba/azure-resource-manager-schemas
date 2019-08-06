@@ -209,9 +209,6 @@
           "$ref": "https://schema.management.azure.com/schemas/2016-04-01/Microsoft.Network.json#/resourceDefinitions/dnszones"
         },
         {
-          "$ref": "https://schema.management.azure.com/schemas/2016-09-01/Microsoft.Authorization.json#/resourceDefinitions/locks"
-        },
-        {
           "$ref": "https://schema.management.azure.com/schemas/2017-12-01/Microsoft.Compute.json#/resourceDefinitions/images"
         },
         {
@@ -1244,9 +1241,6 @@
         },
         {
           "$ref": "https://schema.management.azure.com/schemas/2015-08-01/Microsoft.EventHub.json#/resourceDefinitions/namespaces_eventhubs_consumergroups"
-        },
-        {
-          "$ref": "https://schema.management.azure.com/schemas/2016-09-01/Microsoft.Authorization.json#/resourceDefinitions/locks"
         },
         {
           "$ref": "https://schema.management.azure.com/schemas/2016-09-01/Microsoft.Resources.json#/resourceDefinitions/deployments"

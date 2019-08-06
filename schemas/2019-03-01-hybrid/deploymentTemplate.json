@@ -243,12 +243,6 @@
     "2018-03-01-hybrid-profile-resource": {
       "oneOf": [
         {
-          "$ref": "https://schema.management.azure.com/schemas/2017-03-30/Microsoft.Compute.json#/resourceDefinitions/snapshots"
-        },
-        {
-          "$ref": "https://schema.management.azure.com/schemas/2017-03-30/Microsoft.Compute.json#/resourceDefinitions/virtualMachines"
-        },
-        {
           "$ref": "https://schema.management.azure.com/schemas/2016-10-01/Microsoft.KeyVault.json#/resourceDefinitions/vaults"
         },
         {

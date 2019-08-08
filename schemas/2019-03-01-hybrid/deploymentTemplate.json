@@ -167,6 +167,9 @@
     "2019-03-01-hybrid-profile-resource": {
       "oneOf": [
         {
+          "$ref": "https://schema.management.azure.com/schemas/2016-10-01/Microsoft.KeyVault.json#/resourceDefinitions/BLAHBLHA"
+        },
+        {
           "$ref": "https://schema.management.azure.com/schemas/2016-10-01/Microsoft.KeyVault.json#/resourceDefinitions/vaults"
         },
         {
